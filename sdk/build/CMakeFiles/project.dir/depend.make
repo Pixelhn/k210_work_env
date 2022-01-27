@@ -7,7 +7,11 @@ CMakeFiles/project.dir/src/project/lcd.c.obj: ../src/project/lcd.c
 CMakeFiles/project.dir/src/project/lcd.c.obj: ../src/project/lcd.h
 CMakeFiles/project.dir/src/project/lcd.c.obj: ../src/project/nt35310.h
 
+CMakeFiles/project.dir/src/project/main.c.obj: ../lib/bsp/include/encoding.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../lib/bsp/include/platform.h
+CMakeFiles/project.dir/src/project/main.c.obj: ../lib/bsp/include/sleep.h
+CMakeFiles/project.dir/src/project/main.c.obj: ../lib/bsp/include/syscalls.h
+CMakeFiles/project.dir/src/project/main.c.obj: ../lib/drivers/include/clint.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../lib/drivers/include/fpioa.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../lib/drivers/include/sysctl.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/board_config.h

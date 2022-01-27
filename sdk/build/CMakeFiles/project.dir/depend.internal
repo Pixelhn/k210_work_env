@@ -8,7 +8,11 @@ CMakeFiles/project.dir/src/project/lcd.c.obj
  /home/rock/k210/standalone/sdk/src/project/lcd.h
  /home/rock/k210/standalone/sdk/src/project/nt35310.h
 CMakeFiles/project.dir/src/project/main.c.obj
+ ../lib/bsp/include/encoding.h
  ../lib/bsp/include/platform.h
+ ../lib/bsp/include/sleep.h
+ ../lib/bsp/include/syscalls.h
+ ../lib/drivers/include/clint.h
  ../lib/drivers/include/fpioa.h
  ../lib/drivers/include/sysctl.h
  /home/rock/k210/standalone/sdk/src/project/board_config.h

@@ -1,23 +1,10 @@
-/* Copyright 2018 Canaan Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 #include <stdio.h>
 #include "fpioa.h"
 #include "lcd.h"
 #include "sysctl.h"
 #include "nt35310.h"
 #include "board_config.h"
+#include "sleep.h"
 
 uint32_t g_lcd_gram[LCD_X_MAX * LCD_Y_MAX / 2] __attribute__((aligned(128)));
 
@@ -58,7 +45,20 @@ int main(void)
 #endif
     lcd_clear(RED);
     lcd_draw_picture(0, 0, 240, 160, g_lcd_gram);
-    lcd_draw_string(16, 40, "Canaan", RED);
+    lcd_draw_string(16, 40, "Pixelhn", RED);
     lcd_draw_string(16, 80, "Kendryte K210", BLUE);
-    while (1);
+    while (1){
+        lcd_draw_string(16, 40, "Pixelhn", RED);
+        msleep(100);
+        lcd_draw_string(16, 40, "Pixelhn", ORANGE);
+        msleep(100);
+        lcd_draw_string(16, 40, "Pixelhn", YELLOW);
+        msleep(100);
+        lcd_draw_string(16, 40, "Pixelhn", GREEN);
+        msleep(100);
+        lcd_draw_string(16, 40, "Pixelhn", BLUE);
+        msleep(100);
+        lcd_draw_string(16, 40, "Pixelhn", PURPLE);
+        msleep(100);
+    }
 }
