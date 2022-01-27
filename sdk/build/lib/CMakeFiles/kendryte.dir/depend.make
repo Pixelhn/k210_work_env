@@ -68,7 +68,6 @@ lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj: ../lib/bsp/include/syscalls.h
 lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj: ../lib/bsp/include/util.h
 lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj: ../lib/drivers/include/clint.h
 lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj: ../lib/drivers/include/fpioa.h
-lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj: ../lib/drivers/include/iomem.h
 lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj: ../lib/drivers/include/plic.h
 lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj: ../lib/drivers/include/sysctl.h
 lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj: ../lib/drivers/include/uarths.h
@@ -102,7 +101,6 @@ lib/CMakeFiles/kendryte.dir/drivers/dmac.c.obj: ../lib/bsp/include/platform.h
 lib/CMakeFiles/kendryte.dir/drivers/dmac.c.obj: ../lib/drivers/include/dmac.h
 lib/CMakeFiles/kendryte.dir/drivers/dmac.c.obj: ../lib/drivers/include/fpioa.h
 lib/CMakeFiles/kendryte.dir/drivers/dmac.c.obj: ../lib/drivers/include/io.h
-lib/CMakeFiles/kendryte.dir/drivers/dmac.c.obj: ../lib/drivers/include/iomem.h
 lib/CMakeFiles/kendryte.dir/drivers/dmac.c.obj: ../lib/drivers/include/plic.h
 lib/CMakeFiles/kendryte.dir/drivers/dmac.c.obj: ../lib/drivers/include/sysctl.h
 lib/CMakeFiles/kendryte.dir/drivers/dmac.c.obj: ../lib/drivers/include/utils.h
@@ -161,7 +159,6 @@ lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj: ../lib/drivers/include/dmac.h
 lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj: ../lib/drivers/include/fpioa.h
 lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj: ../lib/drivers/include/i2c.h
 lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj: ../lib/drivers/include/io.h
-lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj: ../lib/drivers/include/iomem.h
 lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj: ../lib/drivers/include/plic.h
 lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj: ../lib/drivers/include/sysctl.h
 lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj: ../lib/drivers/include/utils.h
@@ -184,11 +181,6 @@ lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj: ../lib/drivers/include/sysctl.h
 lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj: ../lib/drivers/include/utils.h
 lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj: ../lib/drivers/i2s.c
 
-lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: ../lib/bsp/include/atomic.h
-lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: ../lib/bsp/include/printf.h
-lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: ../lib/drivers/include/iomem.h
-lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: ../lib/drivers/iomem.c
-
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/bsp/include/atomic.h
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/bsp/include/bsp.h
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/bsp/include/encoding.h
@@ -203,8 +195,6 @@ lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/drivers/include/io.h
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/drivers/include/kpu.h
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/drivers/include/plic.h
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/drivers/include/sysctl.h
-lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/drivers/include/utils.h
-lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/nncase/include/nncase.h
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/drivers/kpu.c
 
 lib/CMakeFiles/kendryte.dir/drivers/plic.c.obj: ../lib/bsp/include/encoding.h
@@ -253,7 +243,6 @@ lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj: ../lib/drivers/include/fpioa.h
 lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj: ../lib/drivers/include/gpio_common.h
 lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj: ../lib/drivers/include/gpiohs.h
 lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj: ../lib/drivers/include/io.h
-lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj: ../lib/drivers/include/iomem.h
 lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj: ../lib/drivers/include/plic.h
 lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj: ../lib/drivers/include/spi.h
 lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj: ../lib/drivers/include/sysctl.h
@@ -293,7 +282,6 @@ lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: ../lib/bsp/include/platform.h
 lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: ../lib/bsp/include/syscalls.h
 lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: ../lib/drivers/include/dmac.h
 lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: ../lib/drivers/include/io.h
-lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: ../lib/drivers/include/iomem.h
 lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: ../lib/drivers/include/plic.h
 lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: ../lib/drivers/include/sysctl.h
 lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: ../lib/drivers/include/uart.h

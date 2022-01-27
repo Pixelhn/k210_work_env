@@ -638,33 +638,6 @@ drivers/i2s.c.s:
 	cd /home/rock/k210/standalone/sdk/build && $(MAKE) -f lib/CMakeFiles/kendryte.dir/build.make lib/CMakeFiles/kendryte.dir/drivers/i2s.c.s
 .PHONY : drivers/i2s.c.s
 
-drivers/iomem.obj: drivers/iomem.c.obj
-
-.PHONY : drivers/iomem.obj
-
-# target to build an object file
-drivers/iomem.c.obj:
-	cd /home/rock/k210/standalone/sdk/build && $(MAKE) -f lib/CMakeFiles/kendryte.dir/build.make lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj
-.PHONY : drivers/iomem.c.obj
-
-drivers/iomem.i: drivers/iomem.c.i
-
-.PHONY : drivers/iomem.i
-
-# target to preprocess a source file
-drivers/iomem.c.i:
-	cd /home/rock/k210/standalone/sdk/build && $(MAKE) -f lib/CMakeFiles/kendryte.dir/build.make lib/CMakeFiles/kendryte.dir/drivers/iomem.c.i
-.PHONY : drivers/iomem.c.i
-
-drivers/iomem.s: drivers/iomem.c.s
-
-.PHONY : drivers/iomem.s
-
-# target to generate assembly for a file
-drivers/iomem.c.s:
-	cd /home/rock/k210/standalone/sdk/build && $(MAKE) -f lib/CMakeFiles/kendryte.dir/build.make lib/CMakeFiles/kendryte.dir/drivers/iomem.c.s
-.PHONY : drivers/iomem.c.s
-
 drivers/kpu.obj: drivers/kpu.c.obj
 
 .PHONY : drivers/kpu.obj
@@ -1055,9 +1028,6 @@ help:
 	@echo "... drivers/i2s.obj"
 	@echo "... drivers/i2s.i"
 	@echo "... drivers/i2s.s"
-	@echo "... drivers/iomem.obj"
-	@echo "... drivers/iomem.i"
-	@echo "... drivers/iomem.s"
 	@echo "... drivers/kpu.obj"
 	@echo "... drivers/kpu.i"
 	@echo "... drivers/kpu.s"

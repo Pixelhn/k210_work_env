@@ -69,7 +69,6 @@ lib/CMakeFiles/kendryte.dir/bsp/syscalls.c.obj
  ../lib/bsp/include/util.h
  ../lib/drivers/include/clint.h
  ../lib/drivers/include/fpioa.h
- ../lib/drivers/include/iomem.h
  ../lib/drivers/include/plic.h
  ../lib/drivers/include/sysctl.h
  ../lib/drivers/include/uarths.h
@@ -103,7 +102,6 @@ lib/CMakeFiles/kendryte.dir/drivers/dmac.c.obj
  ../lib/drivers/include/dmac.h
  ../lib/drivers/include/fpioa.h
  ../lib/drivers/include/io.h
- ../lib/drivers/include/iomem.h
  ../lib/drivers/include/plic.h
  ../lib/drivers/include/sysctl.h
  ../lib/drivers/include/utils.h
@@ -162,7 +160,6 @@ lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj
  ../lib/drivers/include/fpioa.h
  ../lib/drivers/include/i2c.h
  ../lib/drivers/include/io.h
- ../lib/drivers/include/iomem.h
  ../lib/drivers/include/plic.h
  ../lib/drivers/include/sysctl.h
  ../lib/drivers/include/utils.h
@@ -184,11 +181,6 @@ lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj
  ../lib/drivers/include/sysctl.h
  ../lib/drivers/include/utils.h
  /home/rock/k210/standalone/sdk/lib/drivers/i2s.c
-lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj
- ../lib/bsp/include/atomic.h
- ../lib/bsp/include/printf.h
- ../lib/drivers/include/iomem.h
- /home/rock/k210/standalone/sdk/lib/drivers/iomem.c
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj
  ../lib/bsp/include/atomic.h
  ../lib/bsp/include/bsp.h
@@ -204,8 +196,6 @@ lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj
  ../lib/drivers/include/kpu.h
  ../lib/drivers/include/plic.h
  ../lib/drivers/include/sysctl.h
- ../lib/drivers/include/utils.h
- ../lib/nncase/include/nncase.h
  /home/rock/k210/standalone/sdk/lib/drivers/kpu.c
 lib/CMakeFiles/kendryte.dir/drivers/plic.c.obj
  ../lib/bsp/include/encoding.h
@@ -254,7 +244,6 @@ lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj
  ../lib/drivers/include/gpio_common.h
  ../lib/drivers/include/gpiohs.h
  ../lib/drivers/include/io.h
- ../lib/drivers/include/iomem.h
  ../lib/drivers/include/plic.h
  ../lib/drivers/include/spi.h
  ../lib/drivers/include/sysctl.h
@@ -294,7 +283,6 @@ lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj
  ../lib/bsp/include/syscalls.h
  ../lib/drivers/include/dmac.h
  ../lib/drivers/include/io.h
- ../lib/drivers/include/iomem.h
  ../lib/drivers/include/plic.h
  ../lib/drivers/include/sysctl.h
  ../lib/drivers/include/uart.h

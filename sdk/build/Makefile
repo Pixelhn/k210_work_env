@@ -136,72 +136,6 @@ kendryte/fast:
 	$(MAKE) -f lib/CMakeFiles/kendryte.dir/build.make lib/CMakeFiles/kendryte.dir/build
 .PHONY : kendryte/fast
 
-#=============================================================================
-# Target rules for targets named nncase-wrapper
-
-# Build rule for target.
-nncase-wrapper: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nncase-wrapper
-.PHONY : nncase-wrapper
-
-# fast build rule for target.
-nncase-wrapper/fast:
-	$(MAKE) -f lib/nncase/CMakeFiles/nncase-wrapper.dir/build.make lib/nncase/CMakeFiles/nncase-wrapper.dir/build
-.PHONY : nncase-wrapper/fast
-
-#=============================================================================
-# Target rules for targets named nncase-v0
-
-# Build rule for target.
-nncase-v0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nncase-v0
-.PHONY : nncase-v0
-
-# fast build rule for target.
-nncase-v0/fast:
-	$(MAKE) -f lib/nncase/v0/CMakeFiles/nncase-v0.dir/build.make lib/nncase/v0/CMakeFiles/nncase-v0.dir/build
-.PHONY : nncase-v0/fast
-
-#=============================================================================
-# Target rules for targets named nncase-v1
-
-# Build rule for target.
-nncase-v1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nncase-v1
-.PHONY : nncase-v1
-
-# fast build rule for target.
-nncase-v1/fast:
-	$(MAKE) -f lib/nncase/v1/CMakeFiles/nncase-v1.dir/build.make lib/nncase/v1/CMakeFiles/nncase-v1.dir/build
-.PHONY : nncase-v1/fast
-
-src/project/bled.obj: src/project/bled.c.obj
-
-.PHONY : src/project/bled.obj
-
-# target to build an object file
-src/project/bled.c.obj:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bled.c.obj
-.PHONY : src/project/bled.c.obj
-
-src/project/bled.i: src/project/bled.c.i
-
-.PHONY : src/project/bled.i
-
-# target to preprocess a source file
-src/project/bled.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bled.c.i
-.PHONY : src/project/bled.c.i
-
-src/project/bled.s: src/project/bled.c.s
-
-.PHONY : src/project/bled.s
-
-# target to generate assembly for a file
-src/project/bled.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bled.c.s
-.PHONY : src/project/bled.c.s
-
 src/project/main.obj: src/project/main.c.obj
 
 .PHONY : src/project/main.obj
@@ -239,12 +173,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... project"
 	@echo "... kendryte"
-	@echo "... nncase-wrapper"
-	@echo "... nncase-v0"
-	@echo "... nncase-v1"
-	@echo "... src/project/bled.obj"
-	@echo "... src/project/bled.i"
-	@echo "... src/project/bled.s"
 	@echo "... src/project/main.obj"
 	@echo "... src/project/main.i"
 	@echo "... src/project/main.s"

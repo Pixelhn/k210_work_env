@@ -57,22 +57,9 @@ include CMakeFiles/project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/project.dir/flags.make
 
-CMakeFiles/project.dir/src/project/bled.c.obj: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/src/project/bled.c.obj: ../src/project/bled.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/project.dir/src/project/bled.c.obj"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/src/project/bled.c.obj   -c /home/rock/k210/standalone/sdk/src/project/bled.c
-
-CMakeFiles/project.dir/src/project/bled.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/src/project/bled.c.i"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rock/k210/standalone/sdk/src/project/bled.c > CMakeFiles/project.dir/src/project/bled.c.i
-
-CMakeFiles/project.dir/src/project/bled.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/project/bled.c.s"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/src/project/bled.c -o CMakeFiles/project.dir/src/project/bled.c.s
-
 CMakeFiles/project.dir/src/project/main.c.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/project.dir/src/project/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/project.dir/src/project/main.c.obj"
 	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/src/project/main.c.obj   -c /home/rock/k210/standalone/sdk/src/project/main.c
 
 CMakeFiles/project.dir/src/project/main.c.i: cmake_force
@@ -85,23 +72,16 @@ CMakeFiles/project.dir/src/project/main.c.s: cmake_force
 
 # Object files for target project
 project_OBJECTS = \
-"CMakeFiles/project.dir/src/project/bled.c.obj" \
 "CMakeFiles/project.dir/src/project/main.c.obj"
 
 # External object files for target project
 project_EXTERNAL_OBJECTS =
 
-project: CMakeFiles/project.dir/src/project/bled.c.obj
 project: CMakeFiles/project.dir/src/project/main.c.obj
 project: CMakeFiles/project.dir/build.make
 project: lib/libkendryte.a
-project: lib/nncase/libnncase-wrapper.a
-project: lib/nncase/v0/libnncase-v0.a
-project: lib/nncase/v1/libnncase-v1.a
-project: ../lib/nncase/v1/lib/libnncase.rt_modules.k210.a
-project: ../lib/nncase/v1/lib/libnncase.runtime.a
 project: CMakeFiles/project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating .bin file ..."
 	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-objcopy --output-format=binary /home/rock/k210/standalone/sdk/build/project /home/rock/k210/standalone/sdk/build/project.bin

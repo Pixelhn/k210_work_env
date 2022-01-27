@@ -21,15 +21,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../cmake/macros.internal.cmake"
   "../cmake/toolchain.cmake"
   "../lib/CMakeLists.txt"
-  "../lib/nncase/CMakeLists.txt"
-  "../lib/nncase/v0/CMakeLists.txt"
-  "../lib/nncase/v1/CMakeLists.txt"
-  "../lib/nncase/v1/lib/cmake/nncaseruntime/nncaseruntimeConfig.cmake"
-  "../lib/nncase/v1/lib/cmake/nncaseruntime/nncaseruntimeTargets-release.cmake"
-  "../lib/nncase/v1/lib/cmake/nncaseruntime/nncaseruntimeTargets.cmake"
-  "../third_party/gsl-lite/CMakeLists.txt"
-  "../third_party/mpark-variant/CMakeLists.txt"
-  "../third_party/nlohmann_json/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeASMCompiler.cmake.in"
   "/usr/share/cmake-3.16/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in"
@@ -132,20 +123,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "third_party/gsl-lite/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "third_party/mpark-variant/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "third_party/nlohmann_json/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/nncase/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/nncase/v0/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/nncase/v1/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/project.dir/DependInfo.cmake"
   "lib/CMakeFiles/kendryte.dir/DependInfo.cmake"
-  "lib/nncase/CMakeFiles/nncase-wrapper.dir/DependInfo.cmake"
-  "lib/nncase/v0/CMakeFiles/nncase-v0.dir/DependInfo.cmake"
-  "lib/nncase/v1/CMakeFiles/nncase-v1.dir/DependInfo.cmake"
   )

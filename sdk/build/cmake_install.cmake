@@ -34,9 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rock/k210/standalone/sdk/build/third_party/gsl-lite/cmake_install.cmake")
-  include("/home/rock/k210/standalone/sdk/build/third_party/mpark-variant/cmake_install.cmake")
-  include("/home/rock/k210/standalone/sdk/build/third_party/nlohmann_json/cmake_install.cmake")
   include("/home/rock/k210/standalone/sdk/build/lib/cmake_install.cmake")
 
 endif()

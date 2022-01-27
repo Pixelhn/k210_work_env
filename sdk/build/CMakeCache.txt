@@ -64,7 +64,7 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc-ranlib
 
 //NoDesc
-CMAKE_CXX_FLAGS:STRING= -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses
+CMAKE_CXX_FLAGS:STRING= -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -93,7 +93,7 @@ CMAKE_C_COMPILER_AR:FILEPATH=/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc-ranlib
 
 //NoDesc
-CMAKE_C_FLAGS:STRING= -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration
+CMAKE_C_FLAGS:STRING= -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
@@ -177,8 +177,8 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=project
 
-//NoDesc
-CMAKE_RANLIB:STRING=/opt/kendryte-toolchain/bin/riscv64-unknown-elf-ranlib
+//Path to a program.
+CMAKE_RANLIB:FILEPATH=/opt/kendryte-toolchain/bin/riscv64-unknown-elf-ranlib
 
 //Path to a program.
 CMAKE_READELF:FILEPATH=/opt/kendryte-toolchain/bin/riscv64-unknown-elf-readelf
@@ -254,19 +254,10 @@ PROJ:UNINITIALIZED=project
 SDK_ROOT:STRING=/home/rock/k210/standalone/sdk
 
 //Source Files
-SOURCE_FILES:STRING=/home/rock/k210/standalone/sdk/src/project/bled.c;/home/rock/k210/standalone/sdk/src/project/main.c
+SOURCE_FILES:STRING=/home/rock/k210/standalone/sdk/src/project/main.c
 
 //NoDesc
 TOOLCHAIN:STRING=/opt/kendryte-toolchain/bin
-
-//Dependencies for the target
-kendryte_LIB_DEPENDS:STATIC=general;nncase-wrapper;
-
-//Dependencies for the target
-nncase-v1_LIB_DEPENDS:STATIC=general;-Wl,-start-group;general;nncaseruntime;general;nncase_rt_modules_k210;general;-Wl,-end-group;
-
-//Dependencies for the target
-nncase-wrapper_LIB_DEPENDS:STATIC=general;nncase-v0;general;nncase-v1;
 
 //Value Computed by CMake
 project_BINARY_DIR:STATIC=/home/rock/k210/standalone/sdk/build
@@ -395,7 +386,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

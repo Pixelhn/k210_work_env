@@ -1,4 +1,4 @@
-# DO NOT MODIFY THIS FILE, IT WILL BE OVERRIDE!!!
+### This file is used for build example projects.
 
 # set this will supress some warnings
 set(BUILDING_SDK "yes" CACHE INTERNAL "")
@@ -21,10 +21,6 @@ include(./cmake/macros.internal.cmake)
 header_directories(${SDK_ROOT}/lib)
 header_directories(src/${PROJ})
 header_directories(kendryte-standalone-demo/${PROJ})
-
-add_subdirectory(third_party/gsl-lite)
-add_subdirectory(third_party/mpark-variant)
-add_subdirectory(third_party/nlohmann_json)
 # build library first
 add_subdirectory(lib)
 

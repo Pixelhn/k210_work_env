@@ -304,22 +304,9 @@ lib/CMakeFiles/kendryte.dir/drivers/i2s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kendryte.dir/drivers/i2s.c.s"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/lib/drivers/i2s.c -o CMakeFiles/kendryte.dir/drivers/i2s.c.s
 
-lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
-lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: ../lib/drivers/iomem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj"
-	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/iomem.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/iomem.c
-
-lib/CMakeFiles/kendryte.dir/drivers/iomem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kendryte.dir/drivers/iomem.c.i"
-	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rock/k210/standalone/sdk/lib/drivers/iomem.c > CMakeFiles/kendryte.dir/drivers/iomem.c.i
-
-lib/CMakeFiles/kendryte.dir/drivers/iomem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kendryte.dir/drivers/iomem.c.s"
-	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/lib/drivers/iomem.c -o CMakeFiles/kendryte.dir/drivers/iomem.c.s
-
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/drivers/kpu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/kpu.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/kpu.c
 
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.i: cmake_force
@@ -332,7 +319,7 @@ lib/CMakeFiles/kendryte.dir/drivers/kpu.c.s: cmake_force
 
 lib/CMakeFiles/kendryte.dir/drivers/plic.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/plic.c.obj: ../lib/drivers/plic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lib/CMakeFiles/kendryte.dir/drivers/plic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/CMakeFiles/kendryte.dir/drivers/plic.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/plic.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/plic.c
 
 lib/CMakeFiles/kendryte.dir/drivers/plic.c.i: cmake_force
@@ -345,7 +332,7 @@ lib/CMakeFiles/kendryte.dir/drivers/plic.c.s: cmake_force
 
 lib/CMakeFiles/kendryte.dir/drivers/pwm.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/pwm.c.obj: ../lib/drivers/pwm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lib/CMakeFiles/kendryte.dir/drivers/pwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lib/CMakeFiles/kendryte.dir/drivers/pwm.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/pwm.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/pwm.c
 
 lib/CMakeFiles/kendryte.dir/drivers/pwm.c.i: cmake_force
@@ -358,7 +345,7 @@ lib/CMakeFiles/kendryte.dir/drivers/pwm.c.s: cmake_force
 
 lib/CMakeFiles/kendryte.dir/drivers/rtc.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/rtc.c.obj: ../lib/drivers/rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lib/CMakeFiles/kendryte.dir/drivers/rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lib/CMakeFiles/kendryte.dir/drivers/rtc.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/rtc.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/rtc.c
 
 lib/CMakeFiles/kendryte.dir/drivers/rtc.c.i: cmake_force
@@ -371,7 +358,7 @@ lib/CMakeFiles/kendryte.dir/drivers/rtc.c.s: cmake_force
 
 lib/CMakeFiles/kendryte.dir/drivers/sha256.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/sha256.c.obj: ../lib/drivers/sha256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lib/CMakeFiles/kendryte.dir/drivers/sha256.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lib/CMakeFiles/kendryte.dir/drivers/sha256.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/sha256.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/sha256.c
 
 lib/CMakeFiles/kendryte.dir/drivers/sha256.c.i: cmake_force
@@ -384,7 +371,7 @@ lib/CMakeFiles/kendryte.dir/drivers/sha256.c.s: cmake_force
 
 lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj: ../lib/drivers/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lib/CMakeFiles/kendryte.dir/drivers/spi.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/spi.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/spi.c
 
 lib/CMakeFiles/kendryte.dir/drivers/spi.c.i: cmake_force
@@ -397,7 +384,7 @@ lib/CMakeFiles/kendryte.dir/drivers/spi.c.s: cmake_force
 
 lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.obj: ../lib/drivers/sysctl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/sysctl.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/sysctl.c
 
 lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.i: cmake_force
@@ -410,7 +397,7 @@ lib/CMakeFiles/kendryte.dir/drivers/sysctl.c.s: cmake_force
 
 lib/CMakeFiles/kendryte.dir/drivers/timer.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/timer.c.obj: ../lib/drivers/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lib/CMakeFiles/kendryte.dir/drivers/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lib/CMakeFiles/kendryte.dir/drivers/timer.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/timer.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/timer.c
 
 lib/CMakeFiles/kendryte.dir/drivers/timer.c.i: cmake_force
@@ -423,7 +410,7 @@ lib/CMakeFiles/kendryte.dir/drivers/timer.c.s: cmake_force
 
 lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj: ../lib/drivers/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lib/CMakeFiles/kendryte.dir/drivers/uart.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/uart.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/uart.c
 
 lib/CMakeFiles/kendryte.dir/drivers/uart.c.i: cmake_force
@@ -436,7 +423,7 @@ lib/CMakeFiles/kendryte.dir/drivers/uart.c.s: cmake_force
 
 lib/CMakeFiles/kendryte.dir/drivers/uarths.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/uarths.c.obj: ../lib/drivers/uarths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lib/CMakeFiles/kendryte.dir/drivers/uarths.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/CMakeFiles/kendryte.dir/drivers/uarths.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/uarths.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/uarths.c
 
 lib/CMakeFiles/kendryte.dir/drivers/uarths.c.i: cmake_force
@@ -449,7 +436,7 @@ lib/CMakeFiles/kendryte.dir/drivers/uarths.c.s: cmake_force
 
 lib/CMakeFiles/kendryte.dir/drivers/utils.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/utils.c.obj: ../lib/drivers/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lib/CMakeFiles/kendryte.dir/drivers/utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lib/CMakeFiles/kendryte.dir/drivers/utils.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/utils.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/utils.c
 
 lib/CMakeFiles/kendryte.dir/drivers/utils.c.i: cmake_force
@@ -462,7 +449,7 @@ lib/CMakeFiles/kendryte.dir/drivers/utils.c.s: cmake_force
 
 lib/CMakeFiles/kendryte.dir/drivers/wdt.c.obj: lib/CMakeFiles/kendryte.dir/flags.make
 lib/CMakeFiles/kendryte.dir/drivers/wdt.c.obj: ../lib/drivers/wdt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lib/CMakeFiles/kendryte.dir/drivers/wdt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lib/CMakeFiles/kendryte.dir/drivers/wdt.c.obj"
 	cd /home/rock/k210/standalone/sdk/build/lib && /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte.dir/drivers/wdt.c.obj   -c /home/rock/k210/standalone/sdk/lib/drivers/wdt.c
 
 lib/CMakeFiles/kendryte.dir/drivers/wdt.c.i: cmake_force
@@ -494,7 +481,6 @@ kendryte_OBJECTS = \
 "CMakeFiles/kendryte.dir/drivers/gpiohs.c.obj" \
 "CMakeFiles/kendryte.dir/drivers/i2c.c.obj" \
 "CMakeFiles/kendryte.dir/drivers/i2s.c.obj" \
-"CMakeFiles/kendryte.dir/drivers/iomem.c.obj" \
 "CMakeFiles/kendryte.dir/drivers/kpu.c.obj" \
 "CMakeFiles/kendryte.dir/drivers/plic.c.obj" \
 "CMakeFiles/kendryte.dir/drivers/pwm.c.obj" \
@@ -530,7 +516,6 @@ lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/drivers/gpio.c.obj
 lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/drivers/gpiohs.c.obj
 lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj
 lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj
-lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj
 lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj
 lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/drivers/plic.c.obj
 lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/drivers/pwm.c.obj
@@ -545,7 +530,7 @@ lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/drivers/utils.c.obj
 lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/drivers/wdt.c.obj
 lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/build.make
 lib/libkendryte.a: lib/CMakeFiles/kendryte.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C static library libkendryte.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C static library libkendryte.a"
 	cd /home/rock/k210/standalone/sdk/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/kendryte.dir/cmake_clean_target.cmake
 	cd /home/rock/k210/standalone/sdk/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kendryte.dir/link.txt --verbose=$(VERBOSE)
 
