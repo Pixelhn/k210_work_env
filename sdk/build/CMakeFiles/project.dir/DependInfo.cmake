@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/rock/k210/standalone/sdk/src/project/bled.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/bled.c.obj"
   "/home/rock/k210/standalone/sdk/src/project/main.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
@@ -24,6 +25,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../lib/bsp/include"
   "../lib/drivers/include"
   "../lib/utils/include"
+  "../src/project"
   )
 
 # Targets to which this target links.

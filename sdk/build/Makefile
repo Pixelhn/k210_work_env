@@ -136,6 +136,33 @@ kendryte/fast:
 	$(MAKE) -f lib/CMakeFiles/kendryte.dir/build.make lib/CMakeFiles/kendryte.dir/build
 .PHONY : kendryte/fast
 
+src/project/bled.obj: src/project/bled.c.obj
+
+.PHONY : src/project/bled.obj
+
+# target to build an object file
+src/project/bled.c.obj:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bled.c.obj
+.PHONY : src/project/bled.c.obj
+
+src/project/bled.i: src/project/bled.c.i
+
+.PHONY : src/project/bled.i
+
+# target to preprocess a source file
+src/project/bled.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bled.c.i
+.PHONY : src/project/bled.c.i
+
+src/project/bled.s: src/project/bled.c.s
+
+.PHONY : src/project/bled.s
+
+# target to generate assembly for a file
+src/project/bled.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bled.c.s
+.PHONY : src/project/bled.c.s
+
 src/project/main.obj: src/project/main.c.obj
 
 .PHONY : src/project/main.obj
@@ -173,6 +200,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... project"
 	@echo "... kendryte"
+	@echo "... src/project/bled.obj"
+	@echo "... src/project/bled.i"
+	@echo "... src/project/bled.s"
 	@echo "... src/project/main.obj"
 	@echo "... src/project/main.i"
 	@echo "... src/project/main.s"

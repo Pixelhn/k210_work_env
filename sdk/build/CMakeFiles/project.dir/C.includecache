@@ -6,65 +6,35 @@
 
 #IncludeRegexTransform: 
 
-../lib/bsp/include/atomic.h
-
-../lib/bsp/include/bsp.h
-atomic.h
-../lib/bsp/include/atomic.h
-entry.h
-../lib/bsp/include/entry.h
-sleep.h
-../lib/bsp/include/sleep.h
-encoding.h
 ../lib/bsp/include/encoding.h
-syscalls.h
-../lib/bsp/include/syscalls.h
-printf.h
-../lib/bsp/include/printf.h
-
-../lib/bsp/include/encoding.h
-
-../lib/bsp/include/entry.h
-stdlib.h
--
-string.h
--
 
 ../lib/bsp/include/platform.h
 
-../lib/bsp/include/printf.h
-stdarg.h
+../lib/drivers/include/fpioa.h
+stdint.h
 -
+platform.h
+../lib/drivers/include/platform.h
+
+../lib/drivers/include/gpio_common.h
+
+../lib/drivers/include/gpiohs.h
+stdint.h
+-
+platform.h
+../lib/drivers/include/platform.h
 stddef.h
 -
-forward_list
--
+gpio_common.h
+../lib/drivers/include/gpio_common.h
+plic.h
+../lib/drivers/include/plic.h
 
-../lib/bsp/include/sleep.h
+../lib/drivers/include/plic.h
+stdint.h
+-
 encoding.h
-../lib/bsp/include/encoding.h
-clint.h
-../lib/bsp/include/clint.h
-syscalls.h
-../lib/bsp/include/syscalls.h
-
-../lib/bsp/include/syscalls.h
-machine/syscall.h
--
-stddef.h
--
-stdint.h
--
-stdio.h
--
-string.h
--
-
-../lib/drivers/include/clint.h
-stddef.h
--
-stdint.h
--
+../lib/drivers/include/encoding.h
 platform.h
 ../lib/drivers/include/platform.h
 
@@ -75,8 +45,14 @@ platform.h
 ../lib/drivers/include/platform.h
 
 /home/rock/k210/standalone/sdk/src/project/main.c
-bsp.h
--
 sysctl.h
+-
+stdio.h
+-
+gpiohs.h
+-
+fpioa.h
+-
+unistd.h
 -
 

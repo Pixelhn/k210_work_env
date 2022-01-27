@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/project.dir/src/project/bled.c.obj"
   "CMakeFiles/project.dir/src/project/main.c.obj"
   "project"
   "project.pdb"

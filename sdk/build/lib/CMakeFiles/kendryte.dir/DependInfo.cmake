@@ -54,6 +54,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../lib/bsp/include"
   "../lib/drivers/include"
   "../lib/utils/include"
+  "../src/project"
   )
 
 # Targets to which this target links.
