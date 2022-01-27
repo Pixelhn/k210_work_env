@@ -76,10 +76,6 @@ platform.h
 stdint.h
 -
 
-/home/rock/k210/standalone/sdk/src/project/image.h
-stdint.h
--
-
 /home/rock/k210/standalone/sdk/src/project/lcd.c
 string.h
 -
@@ -111,10 +107,6 @@ nt35310.h
 /home/rock/k210/standalone/sdk/src/project/nt35310.h
 board_config.h
 /home/rock/k210/standalone/sdk/src/project/board_config.h
-image.h
-/home/rock/k210/standalone/sdk/src/project/image.h
-unistd.h
-/home/rock/k210/standalone/sdk/src/project/unistd.h
 
 /home/rock/k210/standalone/sdk/src/project/nt35310.c
 nt35310.h

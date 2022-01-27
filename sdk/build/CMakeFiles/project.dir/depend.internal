@@ -12,7 +12,6 @@ CMakeFiles/project.dir/src/project/main.c.obj
  ../lib/drivers/include/fpioa.h
  ../lib/drivers/include/sysctl.h
  /home/rock/k210/standalone/sdk/src/project/board_config.h
- /home/rock/k210/standalone/sdk/src/project/image.h
  /home/rock/k210/standalone/sdk/src/project/lcd.h
  /home/rock/k210/standalone/sdk/src/project/main.c
  /home/rock/k210/standalone/sdk/src/project/nt35310.h

@@ -11,7 +11,6 @@ CMakeFiles/project.dir/src/project/main.c.obj: ../lib/bsp/include/platform.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../lib/drivers/include/fpioa.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../lib/drivers/include/sysctl.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/board_config.h
-CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/image.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/lcd.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/main.c
 CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/nt35310.h
