@@ -1,6 +1,6 @@
 #!/bin/bash
 work_path=/home/rock/k210/standalone
-k210tty=/dev/ttyUSB0
+k210tty=/dev/ttyUSB1
 
 cd $work_path/sdk/build
 make -j4 ||exit

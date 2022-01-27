@@ -136,32 +136,32 @@ kendryte/fast:
 	$(MAKE) -f lib/CMakeFiles/kendryte.dir/build.make lib/CMakeFiles/kendryte.dir/build
 .PHONY : kendryte/fast
 
-src/project/bled.obj: src/project/bled.c.obj
+src/project/lcd.obj: src/project/lcd.c.obj
 
-.PHONY : src/project/bled.obj
+.PHONY : src/project/lcd.obj
 
 # target to build an object file
-src/project/bled.c.obj:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bled.c.obj
-.PHONY : src/project/bled.c.obj
+src/project/lcd.c.obj:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd.c.obj
+.PHONY : src/project/lcd.c.obj
 
-src/project/bled.i: src/project/bled.c.i
+src/project/lcd.i: src/project/lcd.c.i
 
-.PHONY : src/project/bled.i
+.PHONY : src/project/lcd.i
 
 # target to preprocess a source file
-src/project/bled.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bled.c.i
-.PHONY : src/project/bled.c.i
+src/project/lcd.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd.c.i
+.PHONY : src/project/lcd.c.i
 
-src/project/bled.s: src/project/bled.c.s
+src/project/lcd.s: src/project/lcd.c.s
 
-.PHONY : src/project/bled.s
+.PHONY : src/project/lcd.s
 
 # target to generate assembly for a file
-src/project/bled.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bled.c.s
-.PHONY : src/project/bled.c.s
+src/project/lcd.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd.c.s
+.PHONY : src/project/lcd.c.s
 
 src/project/main.obj: src/project/main.c.obj
 
@@ -190,6 +190,33 @@ src/project/main.c.s:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/main.c.s
 .PHONY : src/project/main.c.s
 
+src/project/nt35310.obj: src/project/nt35310.c.obj
+
+.PHONY : src/project/nt35310.obj
+
+# target to build an object file
+src/project/nt35310.c.obj:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/nt35310.c.obj
+.PHONY : src/project/nt35310.c.obj
+
+src/project/nt35310.i: src/project/nt35310.c.i
+
+.PHONY : src/project/nt35310.i
+
+# target to preprocess a source file
+src/project/nt35310.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/nt35310.c.i
+.PHONY : src/project/nt35310.c.i
+
+src/project/nt35310.s: src/project/nt35310.c.s
+
+.PHONY : src/project/nt35310.s
+
+# target to generate assembly for a file
+src/project/nt35310.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/nt35310.c.s
+.PHONY : src/project/nt35310.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +227,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... project"
 	@echo "... kendryte"
-	@echo "... src/project/bled.obj"
-	@echo "... src/project/bled.i"
-	@echo "... src/project/bled.s"
+	@echo "... src/project/lcd.obj"
+	@echo "... src/project/lcd.i"
+	@echo "... src/project/lcd.s"
 	@echo "... src/project/main.obj"
 	@echo "... src/project/main.i"
 	@echo "... src/project/main.s"
+	@echo "... src/project/nt35310.obj"
+	@echo "... src/project/nt35310.i"
+	@echo "... src/project/nt35310.s"
 .PHONY : help
 
 

@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/rock/k210/standalone/sdk/src/project/bled.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/bled.c.obj"
+  "/home/rock/k210/standalone/sdk/src/project/lcd.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/lcd.c.obj"
   "/home/rock/k210/standalone/sdk/src/project/main.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/main.c.obj"
+  "/home/rock/k210/standalone/sdk/src/project/nt35310.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/nt35310.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
