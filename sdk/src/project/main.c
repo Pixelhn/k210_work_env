@@ -1,48 +1,68 @@
-#include<sysctl.h>
-#include<stdio.h>
-#include<gpiohs.h>
-#include<fpioa.h>
-#include<unistd.h>
+/* Copyright 2018 Canaan Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+#include <stdio.h>
+#include "fpioa.h"
+#include "lcd.h"
+#include "sysctl.h"
+#include "nt35310.h"
+#include "board_config.h"
+#include "image.h"
+#include "unistd.h"
 
-#define R_IO 13 
-#define G_IO 14
-#define B_IO 12
+static void io_set_power(void)
+{
+#if BOARD_LICHEEDAN
+    sysctl_set_power_mode(SYSCTL_POWER_BANK6, SYSCTL_POWER_V18);
+    sysctl_set_power_mode(SYSCTL_POWER_BANK7, SYSCTL_POWER_V18);
+#else
+    sysctl_set_power_mode(SYSCTL_POWER_BANK1, SYSCTL_POWER_V18);
+#endif
+}
 
-#define RGBR (FUNC_GPIOHS29 - 24)
-#define RGBG (FUNC_GPIOHS30 - 24)
-#define RGBB (FUNC_GPIOHS31 - 24)
+static void io_mux_init(void)
+{
+#if BOARD_LICHEEDAN
+    fpioa_set_function(38, FUNC_GPIOHS0 + DCX_GPIONUM);
+    fpioa_set_function(36, FUNC_SPI0_SS3);
+    fpioa_set_function(39, FUNC_SPI0_SCLK);
+    fpioa_set_function(37, FUNC_GPIOHS0 + RST_GPIONUM);
+    sysctl_set_spi0_dvp_data(1);
+#else
+    fpioa_set_function(8, FUNC_GPIOHS0 + DCX_GPIONUM);
+    fpioa_set_function(6, FUNC_SPI0_SS3);
+    fpioa_set_function(7, FUNC_SPI0_SCLK);
+    sysctl_set_spi0_dvp_data(1);
+#endif
+}
 
 int main(void)
-{   
-    usleep(100000);
-    printf("int:%ld,long:%ld\n", sizeof(int), sizeof(long));
-    fpioa_set_function(R_IO, FUNC_GPIOHS29);
-    fpioa_set_function(G_IO, FUNC_GPIOHS30);
-    fpioa_set_function(B_IO, FUNC_GPIOHS31);
-
-    gpiohs_set_drive_mode(29, GPIO_DM_OUTPUT);
-    gpiohs_set_drive_mode(30, GPIO_DM_OUTPUT);
-    gpiohs_set_drive_mode(31, GPIO_DM_OUTPUT);
-
-    gpio_pin_value_t value = GPIO_PV_HIGH;
-
-    while (1)
+{
+    printf("lcd test\n");
+    io_mux_init();
+    io_set_power();
+    lcd_init();
+#if BOARD_LICHEEDAN
+    lcd_set_direction(DIR_YX_RLDU);     /* left up 0,0 */
+#else
+    lcd_set_direction(DIR_YX_RLUD);     /* left up 0,0 */
+#endif
+    while(1)
     {
-        value = GPIO_PV_HIGH;
-        gpiohs_set_pin(29, value);
-        sleep(1);
-        gpiohs_set_pin(30, value);
-        sleep(1);
-        gpiohs_set_pin(31, value);
-        sleep(1);
-
-        value = GPIO_PV_LOW;
-        gpiohs_set_pin(29, value);
-        sleep(1);
-        gpiohs_set_pin(30, value);
-        sleep(1);
-        gpiohs_set_pin(31, value);
-        sleep(1);
+        lcd_draw_picture(0, 0, 320, 240, rgb_image);
+        usleep(1000000);
+        printf("show pic\n");
     }
-    return 0;
+    while (1);
 }
