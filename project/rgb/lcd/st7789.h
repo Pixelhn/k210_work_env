@@ -84,15 +84,21 @@
 #define DIGITAL_GAMMA_CTL2      0xE3
 #define INTERFACE_CTL           0xF6
 
+#define DCX_GPIONUM             31 // FUNC_GPIOHS31
+#define RST_GPIONUM             30 // FUNC_GPIOHS30
+
+#define SPI_CHANNEL             SPI_DEVICE_0
+#define SPI_DMA_CH				      DMAC_CHANNEL2
+#define LCD_SPI_SLAVE_SELECT    SPI_CHIP_SELECT_3
 /* clang-format on */
 
-void tft_hard_init(uint32_t freq, bool oct);
-void tft_set_clk_freq(uint32_t freq);
+void tft_hard_init(uint32_t freq);
+ //void tft_set_clk_freq(uint32_t freq);
 void tft_write_command(uint8_t cmd);
 void tft_write_byte(uint8_t *data_buf, uint32_t length);
 void tft_write_half(uint16_t *data_buf, uint32_t length);
-void tft_write_word(uint32_t *data_buf, uint32_t length);
+  void tft_write_word(uint32_t *data_buf, uint32_t length, uint32_t flag);
 void tft_fill_data(uint32_t *data_buf, uint32_t length);
-void tft_set_datawidth(uint8_t width);
+ void tft_set_datawidth(uint8_t width);
 
 #endif

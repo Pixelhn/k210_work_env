@@ -2,11 +2,10 @@
 #include "fpioa.h"
 #include "lcd.h"
 #include "sysctl.h"
-#include "nt35310.h"
+#include "st7789.h"
 #include "board_config.h"
-#include "sleep.h"
-
-uint32_t g_lcd_gram[LCD_X_MAX * LCD_Y_MAX / 2] __attribute__((aligned(128)));
+#include "image.h"
+#include "unistd.h"
 
 static void io_set_power(void)
 {
@@ -41,24 +40,15 @@ int main(void)
     io_set_power();
     lcd_init();
 #if BOARD_LICHEEDAN
-    lcd_set_direction(DIR_XY_LRDU);
+    lcd_set_direction(DIR_YX_RLDU);     /* left up 0,0 */
+#else
+    lcd_set_direction(DIR_YX_RLUD);     /* left up 0,0 */
 #endif
-    lcd_clear(RED);
-    lcd_draw_picture(0, 0, 240, 160, g_lcd_gram);
-    lcd_draw_string(16, 40, "Pixelhn", RED);
-    lcd_draw_string(16, 80, "Kendryte K210", BLUE);
-    while (1){
-        lcd_draw_string(16, 40, "Pixelhn", RED);
-        msleep(100);
-        lcd_draw_string(16, 40, "Pixelhn", ORANGE);
-        msleep(100);
-        lcd_draw_string(16, 40, "Pixelhn", YELLOW);
-        msleep(100);
-        lcd_draw_string(16, 40, "Pixelhn", GREEN);
-        msleep(100);
-        lcd_draw_string(16, 40, "Pixelhn", BLUE);
-        msleep(100);
-        lcd_draw_string(16, 40, "Pixelhn", PURPLE);
-        msleep(100);
+    while(1)
+    {
+        lcd_draw_picture(0, 0, 320, 240, rgb_image);
+        usleep(1000000);
+        printf("show pic\n");
     }
+    while (1);
 }
