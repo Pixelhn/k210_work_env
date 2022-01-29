@@ -10,7 +10,6 @@
 #include "syslog.h"
 #include "utils.h"
 #include "board_config.h"
-//#include "global_config.h"
 
 #define MAIX_SDCARD_DEBUG 0
 #if MAIX_SDCARD_DEBUG == 1
