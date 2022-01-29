@@ -1,9 +1,9 @@
 #!/bin/bash
-work_path=/home/rock/k210/standalone
-k210tty=/dev/ttyUSB0
-bin_file=$work_path/out.bin
+work_path=$(pwd)
 main_path=$work_path/sdk/src/project
-project_path=$work_path/project
+build_path=$work_path/sdk/build
+bin_file=$work_path/out.bin
+k210tty=/dev/ttyUSB0
 
 if [ ! -f $main_path/board_config.h ]; then
     cp $project_path/board_config.h $main_path
