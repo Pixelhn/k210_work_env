@@ -4,11 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/rock/k210/standalone/sdk/src/project/ccsbcs.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/ccsbcs.c.obj"
-  "/home/rock/k210/standalone/sdk/src/project/diskio.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/diskio.c.obj"
-  "/home/rock/k210/standalone/sdk/src/project/ff.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/ff.c.obj"
+  "/home/rock/k210/standalone/sdk/src/project/bcf.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/bcf.c.obj"
+  "/home/rock/k210/standalone/sdk/src/project/lcd.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/lcd.c.obj"
   "/home/rock/k210/standalone/sdk/src/project/main.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/main.c.obj"
-  "/home/rock/k210/standalone/sdk/src/project/sdcard.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/sdcard.c.obj"
+  "/home/rock/k210/standalone/sdk/src/project/nt35310.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/nt35310.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

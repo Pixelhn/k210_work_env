@@ -1,12 +1,13 @@
 #!/bin/bash
 work_path=$(pwd)
 main_path=$work_path/sdk/src/project
+project_path=$work_path/project
 build_path=$work_path/sdk/build
 bin_file=$work_path/out.bin
 k210tty=/dev/ttyUSB0
 
-if [ ! -f $main_path/board_config.h ]; then
-    cp $project_path/board_config.h $main_path
+if [ ! -f $main_path/bcf.h ]; then
+    cp $project_path/bcf.h $main_path
 fi
 
 cd $work_path/sdk/build

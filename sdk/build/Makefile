@@ -136,86 +136,59 @@ kendryte/fast:
 	$(MAKE) -f lib/CMakeFiles/kendryte.dir/build.make lib/CMakeFiles/kendryte.dir/build
 .PHONY : kendryte/fast
 
-src/project/ccsbcs.obj: src/project/ccsbcs.c.obj
+src/project/bcf.obj: src/project/bcf.c.obj
 
-.PHONY : src/project/ccsbcs.obj
-
-# target to build an object file
-src/project/ccsbcs.c.obj:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/ccsbcs.c.obj
-.PHONY : src/project/ccsbcs.c.obj
-
-src/project/ccsbcs.i: src/project/ccsbcs.c.i
-
-.PHONY : src/project/ccsbcs.i
-
-# target to preprocess a source file
-src/project/ccsbcs.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/ccsbcs.c.i
-.PHONY : src/project/ccsbcs.c.i
-
-src/project/ccsbcs.s: src/project/ccsbcs.c.s
-
-.PHONY : src/project/ccsbcs.s
-
-# target to generate assembly for a file
-src/project/ccsbcs.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/ccsbcs.c.s
-.PHONY : src/project/ccsbcs.c.s
-
-src/project/diskio.obj: src/project/diskio.c.obj
-
-.PHONY : src/project/diskio.obj
+.PHONY : src/project/bcf.obj
 
 # target to build an object file
-src/project/diskio.c.obj:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/diskio.c.obj
-.PHONY : src/project/diskio.c.obj
+src/project/bcf.c.obj:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bcf.c.obj
+.PHONY : src/project/bcf.c.obj
 
-src/project/diskio.i: src/project/diskio.c.i
+src/project/bcf.i: src/project/bcf.c.i
 
-.PHONY : src/project/diskio.i
+.PHONY : src/project/bcf.i
 
 # target to preprocess a source file
-src/project/diskio.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/diskio.c.i
-.PHONY : src/project/diskio.c.i
+src/project/bcf.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bcf.c.i
+.PHONY : src/project/bcf.c.i
 
-src/project/diskio.s: src/project/diskio.c.s
+src/project/bcf.s: src/project/bcf.c.s
 
-.PHONY : src/project/diskio.s
+.PHONY : src/project/bcf.s
 
 # target to generate assembly for a file
-src/project/diskio.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/diskio.c.s
-.PHONY : src/project/diskio.c.s
+src/project/bcf.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bcf.c.s
+.PHONY : src/project/bcf.c.s
 
-src/project/ff.obj: src/project/ff.c.obj
+src/project/lcd.obj: src/project/lcd.c.obj
 
-.PHONY : src/project/ff.obj
+.PHONY : src/project/lcd.obj
 
 # target to build an object file
-src/project/ff.c.obj:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/ff.c.obj
-.PHONY : src/project/ff.c.obj
+src/project/lcd.c.obj:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd.c.obj
+.PHONY : src/project/lcd.c.obj
 
-src/project/ff.i: src/project/ff.c.i
+src/project/lcd.i: src/project/lcd.c.i
 
-.PHONY : src/project/ff.i
+.PHONY : src/project/lcd.i
 
 # target to preprocess a source file
-src/project/ff.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/ff.c.i
-.PHONY : src/project/ff.c.i
+src/project/lcd.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd.c.i
+.PHONY : src/project/lcd.c.i
 
-src/project/ff.s: src/project/ff.c.s
+src/project/lcd.s: src/project/lcd.c.s
 
-.PHONY : src/project/ff.s
+.PHONY : src/project/lcd.s
 
 # target to generate assembly for a file
-src/project/ff.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/ff.c.s
-.PHONY : src/project/ff.c.s
+src/project/lcd.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd.c.s
+.PHONY : src/project/lcd.c.s
 
 src/project/main.obj: src/project/main.c.obj
 
@@ -244,32 +217,32 @@ src/project/main.c.s:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/main.c.s
 .PHONY : src/project/main.c.s
 
-src/project/sdcard.obj: src/project/sdcard.c.obj
+src/project/nt35310.obj: src/project/nt35310.c.obj
 
-.PHONY : src/project/sdcard.obj
+.PHONY : src/project/nt35310.obj
 
 # target to build an object file
-src/project/sdcard.c.obj:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/sdcard.c.obj
-.PHONY : src/project/sdcard.c.obj
+src/project/nt35310.c.obj:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/nt35310.c.obj
+.PHONY : src/project/nt35310.c.obj
 
-src/project/sdcard.i: src/project/sdcard.c.i
+src/project/nt35310.i: src/project/nt35310.c.i
 
-.PHONY : src/project/sdcard.i
+.PHONY : src/project/nt35310.i
 
 # target to preprocess a source file
-src/project/sdcard.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/sdcard.c.i
-.PHONY : src/project/sdcard.c.i
+src/project/nt35310.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/nt35310.c.i
+.PHONY : src/project/nt35310.c.i
 
-src/project/sdcard.s: src/project/sdcard.c.s
+src/project/nt35310.s: src/project/nt35310.c.s
 
-.PHONY : src/project/sdcard.s
+.PHONY : src/project/nt35310.s
 
 # target to generate assembly for a file
-src/project/sdcard.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/sdcard.c.s
-.PHONY : src/project/sdcard.c.s
+src/project/nt35310.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/nt35310.c.s
+.PHONY : src/project/nt35310.c.s
 
 # Help Target
 help:
@@ -281,21 +254,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... project"
 	@echo "... kendryte"
-	@echo "... src/project/ccsbcs.obj"
-	@echo "... src/project/ccsbcs.i"
-	@echo "... src/project/ccsbcs.s"
-	@echo "... src/project/diskio.obj"
-	@echo "... src/project/diskio.i"
-	@echo "... src/project/diskio.s"
-	@echo "... src/project/ff.obj"
-	@echo "... src/project/ff.i"
-	@echo "... src/project/ff.s"
+	@echo "... src/project/bcf.obj"
+	@echo "... src/project/bcf.i"
+	@echo "... src/project/bcf.s"
+	@echo "... src/project/lcd.obj"
+	@echo "... src/project/lcd.i"
+	@echo "... src/project/lcd.s"
 	@echo "... src/project/main.obj"
 	@echo "... src/project/main.i"
 	@echo "... src/project/main.s"
-	@echo "... src/project/sdcard.obj"
-	@echo "... src/project/sdcard.i"
-	@echo "... src/project/sdcard.s"
+	@echo "... src/project/nt35310.obj"
+	@echo "... src/project/nt35310.i"
+	@echo "... src/project/nt35310.s"
 .PHONY : help
 
 
