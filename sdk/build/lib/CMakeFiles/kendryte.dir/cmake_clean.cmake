@@ -18,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/kendryte.dir/drivers/gpiohs.c.obj"
   "CMakeFiles/kendryte.dir/drivers/i2c.c.obj"
   "CMakeFiles/kendryte.dir/drivers/i2s.c.obj"
+  "CMakeFiles/kendryte.dir/drivers/iomem.c.obj"
   "CMakeFiles/kendryte.dir/drivers/kpu.c.obj"
   "CMakeFiles/kendryte.dir/drivers/plic.c.obj"
   "CMakeFiles/kendryte.dir/drivers/pwm.c.obj"

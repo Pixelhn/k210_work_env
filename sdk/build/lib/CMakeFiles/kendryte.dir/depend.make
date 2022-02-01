@@ -181,6 +181,11 @@ lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj: ../lib/drivers/include/sysctl.h
 lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj: ../lib/drivers/include/utils.h
 lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj: ../lib/drivers/i2s.c
 
+lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: ../lib/bsp/include/atomic.h
+lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: ../lib/bsp/include/printf.h
+lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: ../lib/drivers/include/iomem.h
+lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj: ../lib/drivers/iomem.c
+
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/bsp/include/atomic.h
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/bsp/include/bsp.h
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj: ../lib/bsp/include/encoding.h

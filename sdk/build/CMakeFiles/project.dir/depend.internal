@@ -3,30 +3,35 @@
 
 CMakeFiles/project.dir/src/project/bcf.c.obj
  ../lib/bsp/include/platform.h
+ ../lib/drivers/include/dvp.h
  ../lib/drivers/include/fpioa.h
  ../lib/drivers/include/sysctl.h
+ ../src/project/cam/ov2640.h
+ ../src/project/cam/ov5640.h
+ ../src/project/lcd/lcd.h
  /home/rock/k210/standalone/sdk/src/project/bcf.c
  /home/rock/k210/standalone/sdk/src/project/bcf.h
- /home/rock/k210/standalone/sdk/src/project/lcd.h
-CMakeFiles/project.dir/src/project/lcd.c.obj
- /home/rock/k210/standalone/sdk/src/project/bcf.h
- /home/rock/k210/standalone/sdk/src/project/font.h
- /home/rock/k210/standalone/sdk/src/project/lcd.c
- /home/rock/k210/standalone/sdk/src/project/lcd.h
- /home/rock/k210/standalone/sdk/src/project/nt35310.h
-CMakeFiles/project.dir/src/project/main.c.obj
+CMakeFiles/project.dir/src/project/cam/ov2640.c.obj
  ../lib/bsp/include/encoding.h
  ../lib/bsp/include/platform.h
- ../lib/bsp/include/sleep.h
- ../lib/bsp/include/syscalls.h
- ../lib/drivers/include/clint.h
- ../lib/drivers/include/fpioa.h
- ../lib/drivers/include/sysctl.h
- /home/rock/k210/standalone/sdk/src/project/bcf.h
- /home/rock/k210/standalone/sdk/src/project/lcd.h
- /home/rock/k210/standalone/sdk/src/project/main.c
- /home/rock/k210/standalone/sdk/src/project/nt35310.h
-CMakeFiles/project.dir/src/project/nt35310.c.obj
+ ../lib/drivers/include/dvp.h
+ ../lib/drivers/include/plic.h
+ ../src/project/board_config.h
+ /home/rock/k210/standalone/sdk/src/project/cam/ov2640.c
+ /home/rock/k210/standalone/sdk/src/project/cam/ov2640.h
+CMakeFiles/project.dir/src/project/cam/ov5640.c.obj
+ ../lib/drivers/include/dvp.h
+ /home/rock/k210/standalone/sdk/src/project/cam/ov5640.c
+ /home/rock/k210/standalone/sdk/src/project/cam/ov5640.h
+ /home/rock/k210/standalone/sdk/src/project/cam/ov5640af.h
+ /home/rock/k210/standalone/sdk/src/project/cam/ov5640cfg.h
+CMakeFiles/project.dir/src/project/lcd/lcd.c.obj
+ ../src/project/bcf.h
+ /home/rock/k210/standalone/sdk/src/project/lcd/font.h
+ /home/rock/k210/standalone/sdk/src/project/lcd/lcd.c
+ /home/rock/k210/standalone/sdk/src/project/lcd/lcd.h
+ /home/rock/k210/standalone/sdk/src/project/lcd/nt35310.h
+CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj
  ../lib/bsp/include/encoding.h
  ../lib/bsp/include/platform.h
  ../lib/drivers/include/dmac.h
@@ -35,6 +40,21 @@ CMakeFiles/project.dir/src/project/nt35310.c.obj
  ../lib/drivers/include/io.h
  ../lib/drivers/include/plic.h
  ../lib/drivers/include/spi.h
- /home/rock/k210/standalone/sdk/src/project/bcf.h
- /home/rock/k210/standalone/sdk/src/project/nt35310.c
- /home/rock/k210/standalone/sdk/src/project/nt35310.h
+ ../src/project/bcf.h
+ /home/rock/k210/standalone/sdk/src/project/lcd/nt35310.c
+ /home/rock/k210/standalone/sdk/src/project/lcd/nt35310.h
+CMakeFiles/project.dir/src/project/main.c.obj
+ ../lib/bsp/include/encoding.h
+ ../lib/bsp/include/platform.h
+ ../lib/drivers/include/dvp.h
+ ../lib/drivers/include/fpioa.h
+ ../lib/drivers/include/iomem.h
+ ../lib/drivers/include/plic.h
+ ../lib/drivers/include/sysctl.h
+ ../lib/drivers/include/uarths.h
+ ../src/project/cam/ov2640.h
+ ../src/project/cam/ov5640.h
+ ../src/project/lcd/lcd.h
+ ../src/project/lcd/nt35310.h
+ /home/rock/k210/standalone/sdk/src/project/board_config.h
+ /home/rock/k210/standalone/sdk/src/project/main.c

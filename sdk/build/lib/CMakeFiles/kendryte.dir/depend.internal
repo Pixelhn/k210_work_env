@@ -181,6 +181,11 @@ lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj
  ../lib/drivers/include/sysctl.h
  ../lib/drivers/include/utils.h
  /home/rock/k210/standalone/sdk/lib/drivers/i2s.c
+lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj
+ ../lib/bsp/include/atomic.h
+ ../lib/bsp/include/printf.h
+ ../lib/drivers/include/iomem.h
+ /home/rock/k210/standalone/sdk/lib/drivers/iomem.c
 lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj
  ../lib/bsp/include/atomic.h
  ../lib/bsp/include/bsp.h

@@ -1,3 +1,17 @@
+/* Copyright 2018 Canaan Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 #include <stdio.h>
 #include <string.h>
 #include "dvp.h"
@@ -54,10 +68,10 @@ static void io_mux_init(void)
     fpioa_set_function(40, FUNC_SCCB_SDA);
 
     /* Init SPI IO map and function settings */
-    fpioa_set_function(38, FUNC_GPIOHS0 + DCX_GPIONUM);
+    fpioa_set_function(38, FUNC_GPIOHS0 + 2);
     fpioa_set_function(36, FUNC_SPI0_SS3);
     fpioa_set_function(39, FUNC_SPI0_SCLK);
-    fpioa_set_function(37, FUNC_GPIOHS0 + RST_GPIONUM);
+    fpioa_set_function(37, FUNC_GPIOHS0 + 3);
 
     sysctl_set_spi0_dvp_data(1);
 #else

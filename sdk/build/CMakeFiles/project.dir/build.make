@@ -70,22 +70,61 @@ CMakeFiles/project.dir/src/project/bcf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/project/bcf.c.s"
 	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/src/project/bcf.c -o CMakeFiles/project.dir/src/project/bcf.c.s
 
-CMakeFiles/project.dir/src/project/lcd.c.obj: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/src/project/lcd.c.obj: ../src/project/lcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/project.dir/src/project/lcd.c.obj"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/src/project/lcd.c.obj   -c /home/rock/k210/standalone/sdk/src/project/lcd.c
+CMakeFiles/project.dir/src/project/cam/ov2640.c.obj: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/project/cam/ov2640.c.obj: ../src/project/cam/ov2640.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/project.dir/src/project/cam/ov2640.c.obj"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/src/project/cam/ov2640.c.obj   -c /home/rock/k210/standalone/sdk/src/project/cam/ov2640.c
 
-CMakeFiles/project.dir/src/project/lcd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/src/project/lcd.c.i"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rock/k210/standalone/sdk/src/project/lcd.c > CMakeFiles/project.dir/src/project/lcd.c.i
+CMakeFiles/project.dir/src/project/cam/ov2640.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/src/project/cam/ov2640.c.i"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rock/k210/standalone/sdk/src/project/cam/ov2640.c > CMakeFiles/project.dir/src/project/cam/ov2640.c.i
 
-CMakeFiles/project.dir/src/project/lcd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/project/lcd.c.s"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/src/project/lcd.c -o CMakeFiles/project.dir/src/project/lcd.c.s
+CMakeFiles/project.dir/src/project/cam/ov2640.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/project/cam/ov2640.c.s"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/src/project/cam/ov2640.c -o CMakeFiles/project.dir/src/project/cam/ov2640.c.s
+
+CMakeFiles/project.dir/src/project/cam/ov5640.c.obj: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/project/cam/ov5640.c.obj: ../src/project/cam/ov5640.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/project.dir/src/project/cam/ov5640.c.obj"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/src/project/cam/ov5640.c.obj   -c /home/rock/k210/standalone/sdk/src/project/cam/ov5640.c
+
+CMakeFiles/project.dir/src/project/cam/ov5640.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/src/project/cam/ov5640.c.i"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rock/k210/standalone/sdk/src/project/cam/ov5640.c > CMakeFiles/project.dir/src/project/cam/ov5640.c.i
+
+CMakeFiles/project.dir/src/project/cam/ov5640.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/project/cam/ov5640.c.s"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/src/project/cam/ov5640.c -o CMakeFiles/project.dir/src/project/cam/ov5640.c.s
+
+CMakeFiles/project.dir/src/project/lcd/lcd.c.obj: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/project/lcd/lcd.c.obj: ../src/project/lcd/lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/project.dir/src/project/lcd/lcd.c.obj"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/src/project/lcd/lcd.c.obj   -c /home/rock/k210/standalone/sdk/src/project/lcd/lcd.c
+
+CMakeFiles/project.dir/src/project/lcd/lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/src/project/lcd/lcd.c.i"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rock/k210/standalone/sdk/src/project/lcd/lcd.c > CMakeFiles/project.dir/src/project/lcd/lcd.c.i
+
+CMakeFiles/project.dir/src/project/lcd/lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/project/lcd/lcd.c.s"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/src/project/lcd/lcd.c -o CMakeFiles/project.dir/src/project/lcd/lcd.c.s
+
+CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj: ../src/project/lcd/nt35310.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj   -c /home/rock/k210/standalone/sdk/src/project/lcd/nt35310.c
+
+CMakeFiles/project.dir/src/project/lcd/nt35310.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/src/project/lcd/nt35310.c.i"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rock/k210/standalone/sdk/src/project/lcd/nt35310.c > CMakeFiles/project.dir/src/project/lcd/nt35310.c.i
+
+CMakeFiles/project.dir/src/project/lcd/nt35310.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/project/lcd/nt35310.c.s"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/src/project/lcd/nt35310.c -o CMakeFiles/project.dir/src/project/lcd/nt35310.c.s
 
 CMakeFiles/project.dir/src/project/main.c.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/project.dir/src/project/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/project.dir/src/project/main.c.obj"
 	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/src/project/main.c.obj   -c /home/rock/k210/standalone/sdk/src/project/main.c
 
 CMakeFiles/project.dir/src/project/main.c.i: cmake_force
@@ -96,37 +135,28 @@ CMakeFiles/project.dir/src/project/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/project/main.c.s"
 	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/src/project/main.c -o CMakeFiles/project.dir/src/project/main.c.s
 
-CMakeFiles/project.dir/src/project/nt35310.c.obj: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/src/project/nt35310.c.obj: ../src/project/nt35310.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/project.dir/src/project/nt35310.c.obj"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/src/project/nt35310.c.obj   -c /home/rock/k210/standalone/sdk/src/project/nt35310.c
-
-CMakeFiles/project.dir/src/project/nt35310.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/src/project/nt35310.c.i"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rock/k210/standalone/sdk/src/project/nt35310.c > CMakeFiles/project.dir/src/project/nt35310.c.i
-
-CMakeFiles/project.dir/src/project/nt35310.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/project/nt35310.c.s"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/src/project/nt35310.c -o CMakeFiles/project.dir/src/project/nt35310.c.s
-
 # Object files for target project
 project_OBJECTS = \
 "CMakeFiles/project.dir/src/project/bcf.c.obj" \
-"CMakeFiles/project.dir/src/project/lcd.c.obj" \
-"CMakeFiles/project.dir/src/project/main.c.obj" \
-"CMakeFiles/project.dir/src/project/nt35310.c.obj"
+"CMakeFiles/project.dir/src/project/cam/ov2640.c.obj" \
+"CMakeFiles/project.dir/src/project/cam/ov5640.c.obj" \
+"CMakeFiles/project.dir/src/project/lcd/lcd.c.obj" \
+"CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj" \
+"CMakeFiles/project.dir/src/project/main.c.obj"
 
 # External object files for target project
 project_EXTERNAL_OBJECTS =
 
 project: CMakeFiles/project.dir/src/project/bcf.c.obj
-project: CMakeFiles/project.dir/src/project/lcd.c.obj
+project: CMakeFiles/project.dir/src/project/cam/ov2640.c.obj
+project: CMakeFiles/project.dir/src/project/cam/ov5640.c.obj
+project: CMakeFiles/project.dir/src/project/lcd/lcd.c.obj
+project: CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj
 project: CMakeFiles/project.dir/src/project/main.c.obj
-project: CMakeFiles/project.dir/src/project/nt35310.c.obj
 project: CMakeFiles/project.dir/build.make
 project: lib/libkendryte.a
 project: CMakeFiles/project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating .bin file ..."
 	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-objcopy --output-format=binary /home/rock/k210/standalone/sdk/build/project /home/rock/k210/standalone/sdk/build/project.bin

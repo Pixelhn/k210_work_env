@@ -23,6 +23,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/rock/k210/standalone/sdk/lib/drivers/gpiohs.c" "/home/rock/k210/standalone/sdk/build/lib/CMakeFiles/kendryte.dir/drivers/gpiohs.c.obj"
   "/home/rock/k210/standalone/sdk/lib/drivers/i2c.c" "/home/rock/k210/standalone/sdk/build/lib/CMakeFiles/kendryte.dir/drivers/i2c.c.obj"
   "/home/rock/k210/standalone/sdk/lib/drivers/i2s.c" "/home/rock/k210/standalone/sdk/build/lib/CMakeFiles/kendryte.dir/drivers/i2s.c.obj"
+  "/home/rock/k210/standalone/sdk/lib/drivers/iomem.c" "/home/rock/k210/standalone/sdk/build/lib/CMakeFiles/kendryte.dir/drivers/iomem.c.obj"
   "/home/rock/k210/standalone/sdk/lib/drivers/kpu.c" "/home/rock/k210/standalone/sdk/build/lib/CMakeFiles/kendryte.dir/drivers/kpu.c.obj"
   "/home/rock/k210/standalone/sdk/lib/drivers/plic.c" "/home/rock/k210/standalone/sdk/build/lib/CMakeFiles/kendryte.dir/drivers/plic.c.obj"
   "/home/rock/k210/standalone/sdk/lib/drivers/pwm.c" "/home/rock/k210/standalone/sdk/build/lib/CMakeFiles/kendryte.dir/drivers/pwm.c.obj"
@@ -55,6 +56,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../lib/drivers/include"
   "../lib/utils/include"
   "../src/project"
+  "../src/project/cam"
+  "../src/project/lcd"
   )
 
 # Targets to which this target links.
