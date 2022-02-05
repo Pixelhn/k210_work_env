@@ -163,60 +163,6 @@ src/project/bcf.c.s:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bcf.c.s
 .PHONY : src/project/bcf.c.s
 
-src/project/cam/ov2640.obj: src/project/cam/ov2640.c.obj
-
-.PHONY : src/project/cam/ov2640.obj
-
-# target to build an object file
-src/project/cam/ov2640.c.obj:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/cam/ov2640.c.obj
-.PHONY : src/project/cam/ov2640.c.obj
-
-src/project/cam/ov2640.i: src/project/cam/ov2640.c.i
-
-.PHONY : src/project/cam/ov2640.i
-
-# target to preprocess a source file
-src/project/cam/ov2640.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/cam/ov2640.c.i
-.PHONY : src/project/cam/ov2640.c.i
-
-src/project/cam/ov2640.s: src/project/cam/ov2640.c.s
-
-.PHONY : src/project/cam/ov2640.s
-
-# target to generate assembly for a file
-src/project/cam/ov2640.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/cam/ov2640.c.s
-.PHONY : src/project/cam/ov2640.c.s
-
-src/project/cam/ov5640.obj: src/project/cam/ov5640.c.obj
-
-.PHONY : src/project/cam/ov5640.obj
-
-# target to build an object file
-src/project/cam/ov5640.c.obj:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/cam/ov5640.c.obj
-.PHONY : src/project/cam/ov5640.c.obj
-
-src/project/cam/ov5640.i: src/project/cam/ov5640.c.i
-
-.PHONY : src/project/cam/ov5640.i
-
-# target to preprocess a source file
-src/project/cam/ov5640.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/cam/ov5640.c.i
-.PHONY : src/project/cam/ov5640.c.i
-
-src/project/cam/ov5640.s: src/project/cam/ov5640.c.s
-
-.PHONY : src/project/cam/ov5640.s
-
-# target to generate assembly for a file
-src/project/cam/ov5640.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/cam/ov5640.c.s
-.PHONY : src/project/cam/ov5640.c.s
-
 src/project/lcd/lcd.obj: src/project/lcd/lcd.c.obj
 
 .PHONY : src/project/lcd/lcd.obj
@@ -311,12 +257,6 @@ help:
 	@echo "... src/project/bcf.obj"
 	@echo "... src/project/bcf.i"
 	@echo "... src/project/bcf.s"
-	@echo "... src/project/cam/ov2640.obj"
-	@echo "... src/project/cam/ov2640.i"
-	@echo "... src/project/cam/ov2640.s"
-	@echo "... src/project/cam/ov5640.obj"
-	@echo "... src/project/cam/ov5640.i"
-	@echo "... src/project/cam/ov5640.s"
 	@echo "... src/project/lcd/lcd.obj"
 	@echo "... src/project/lcd/lcd.i"
 	@echo "... src/project/lcd/lcd.s"

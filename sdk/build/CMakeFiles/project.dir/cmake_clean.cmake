@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/project.dir/src/project/bcf.c.obj"
-  "CMakeFiles/project.dir/src/project/cam/ov2640.c.obj"
-  "CMakeFiles/project.dir/src/project/cam/ov5640.c.obj"
   "CMakeFiles/project.dir/src/project/lcd/lcd.c.obj"
   "CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj"
   "CMakeFiles/project.dir/src/project/main.c.obj"

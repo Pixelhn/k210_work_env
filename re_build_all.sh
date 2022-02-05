@@ -8,6 +8,10 @@ k210tty=/dev/ttyUSB0
 if [ ! -f $main_path/board_config.h ]; then
     cp $project_path/board_config.h $main_path
 fi
+
+if [ ! -f $main_path/bcf.c ]; then
+    cp $project_path/bcf.c $main_path
+fi
 rm $work_path/end.bin
 
     echo _________________BUILD_ALL!__________________

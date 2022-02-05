@@ -10,6 +10,10 @@ if [ ! -f $main_path/bcf.h ]; then
     cp $project_path/bcf.h $main_path
 fi
 
+if [ ! -f $main_path/bcf.c ]; then
+    cp $project_path/bcf.c $main_path
+fi
+
 cd $work_path/sdk/build
 make -j4 || exit
 rm $bin_file

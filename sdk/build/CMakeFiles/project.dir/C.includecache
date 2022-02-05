@@ -10,23 +10,37 @@
 
 ../lib/bsp/include/platform.h
 
-../lib/drivers/include/dvp.h
+../lib/bsp/include/sleep.h
+encoding.h
+../lib/bsp/include/encoding.h
+clint.h
+../lib/bsp/include/clint.h
+syscalls.h
+../lib/bsp/include/syscalls.h
+
+../lib/bsp/include/syscalls.h
+machine/syscall.h
+-
+stddef.h
+-
 stdint.h
 -
+stdio.h
+-
+string.h
+-
 
-../lib/drivers/include/fpioa.h
+../lib/drivers/include/clint.h
+stddef.h
+-
 stdint.h
 -
 platform.h
 ../lib/drivers/include/platform.h
 
-../lib/drivers/include/iomem.h
-
-../lib/drivers/include/plic.h
+../lib/drivers/include/fpioa.h
 stdint.h
 -
-encoding.h
-../lib/drivers/include/encoding.h
 platform.h
 ../lib/drivers/include/platform.h
 
@@ -36,61 +50,23 @@ stdint.h
 platform.h
 ../lib/drivers/include/platform.h
 
-../lib/drivers/include/uarths.h
-stddef.h
--
-stdint.h
--
-platform.h
-../lib/drivers/include/platform.h
-plic.h
-../lib/drivers/include/plic.h
-
-../src/project/cam/ov2640.h
-stdint.h
--
-
-../src/project/cam/ov5640.h
-stdint.h
--
-
 ../src/project/lcd/lcd.h
 stdint.h
 -
 
-../src/project/lcd/nt35310.h
-stdint.h
--
-
-/home/rock/k210/standalone/sdk/src/project/board_config.h
+/home/rock/k210/standalone/sdk/src/project/bcf.h
 
 /home/rock/k210/standalone/sdk/src/project/main.c
 stdio.h
 -
-string.h
--
-dvp.h
-/home/rock/k210/standalone/sdk/src/project/dvp.h
 fpioa.h
 /home/rock/k210/standalone/sdk/src/project/fpioa.h
-lcd.h
-/home/rock/k210/standalone/sdk/src/project/lcd.h
-ov5640.h
-/home/rock/k210/standalone/sdk/src/project/ov5640.h
-ov2640.h
-/home/rock/k210/standalone/sdk/src/project/ov2640.h
-plic.h
-/home/rock/k210/standalone/sdk/src/project/plic.h
 sysctl.h
 /home/rock/k210/standalone/sdk/src/project/sysctl.h
-uarths.h
-/home/rock/k210/standalone/sdk/src/project/uarths.h
-nt35310.h
-/home/rock/k210/standalone/sdk/src/project/nt35310.h
-board_config.h
-/home/rock/k210/standalone/sdk/src/project/board_config.h
-unistd.h
-/home/rock/k210/standalone/sdk/src/project/unistd.h
-iomem.h
-/home/rock/k210/standalone/sdk/src/project/iomem.h
+sleep.h
+/home/rock/k210/standalone/sdk/src/project/sleep.h
+lcd.h
+/home/rock/k210/standalone/sdk/src/project/lcd.h
+bcf.h
+/home/rock/k210/standalone/sdk/src/project/bcf.h
 

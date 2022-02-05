@@ -56,7 +56,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../lib/drivers/include"
   "../lib/utils/include"
   "../src/project"
-  "../src/project/cam"
   "../src/project/lcd"
   )
 
