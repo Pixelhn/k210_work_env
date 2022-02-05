@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "atomic.h": "c",
+        "printf.h": "c"
+    }
+}
