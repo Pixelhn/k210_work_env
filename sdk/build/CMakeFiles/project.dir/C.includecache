@@ -50,6 +50,8 @@ stdint.h
 platform.h
 ../lib/drivers/include/platform.h
 
+../src/project/lcd/desplay.h
+
 ../src/project/lcd/lcd.h
 stdint.h
 -
@@ -69,4 +71,6 @@ lcd.h
 /home/rock/k210/standalone/sdk/src/project/lcd.h
 bcf.h
 /home/rock/k210/standalone/sdk/src/project/bcf.h
+desplay.h
+/home/rock/k210/standalone/sdk/src/project/desplay.h
 

@@ -254,7 +254,7 @@ PROJ:UNINITIALIZED=project
 SDK_ROOT:STRING=/home/rock/k210/standalone/sdk
 
 //Source Files
-SOURCE_FILES:STRING=/home/rock/k210/standalone/sdk/src/project/bcf.c;/home/rock/k210/standalone/sdk/src/project/lcd/lcd.c;/home/rock/k210/standalone/sdk/src/project/lcd/nt35310.c;/home/rock/k210/standalone/sdk/src/project/main.c
+SOURCE_FILES:STRING=/home/rock/k210/standalone/sdk/src/project/bcf.c;/home/rock/k210/standalone/sdk/src/project/lcd/desplay.c;/home/rock/k210/standalone/sdk/src/project/lcd/lcd.c;/home/rock/k210/standalone/sdk/src/project/lcd/nt35310.c;/home/rock/k210/standalone/sdk/src/project/main.c
 
 //NoDesc
 TOOLCHAIN:STRING=/opt/kendryte-toolchain/bin

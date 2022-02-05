@@ -8,6 +8,10 @@ CMakeFiles/project.dir/src/project/bcf.c.obj
  ../src/project/lcd/lcd.h
  /home/rock/k210/standalone/sdk/src/project/bcf.c
  /home/rock/k210/standalone/sdk/src/project/bcf.h
+CMakeFiles/project.dir/src/project/lcd/desplay.c.obj
+ /home/rock/k210/standalone/sdk/src/project/lcd/desplay.c
+ /home/rock/k210/standalone/sdk/src/project/lcd/desplay.h
+ /home/rock/k210/standalone/sdk/src/project/lcd/lcd.h
 CMakeFiles/project.dir/src/project/lcd/lcd.c.obj
  ../src/project/bcf.h
  /home/rock/k210/standalone/sdk/src/project/lcd/font.h
@@ -34,6 +38,7 @@ CMakeFiles/project.dir/src/project/main.c.obj
  ../lib/drivers/include/clint.h
  ../lib/drivers/include/fpioa.h
  ../lib/drivers/include/sysctl.h
+ ../src/project/lcd/desplay.h
  ../src/project/lcd/lcd.h
  /home/rock/k210/standalone/sdk/src/project/bcf.h
  /home/rock/k210/standalone/sdk/src/project/main.c

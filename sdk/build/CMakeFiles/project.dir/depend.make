@@ -8,6 +8,10 @@ CMakeFiles/project.dir/src/project/bcf.c.obj: ../src/project/lcd/lcd.h
 CMakeFiles/project.dir/src/project/bcf.c.obj: ../src/project/bcf.c
 CMakeFiles/project.dir/src/project/bcf.c.obj: ../src/project/bcf.h
 
+CMakeFiles/project.dir/src/project/lcd/desplay.c.obj: ../src/project/lcd/desplay.c
+CMakeFiles/project.dir/src/project/lcd/desplay.c.obj: ../src/project/lcd/desplay.h
+CMakeFiles/project.dir/src/project/lcd/desplay.c.obj: ../src/project/lcd/lcd.h
+
 CMakeFiles/project.dir/src/project/lcd/lcd.c.obj: ../src/project/bcf.h
 CMakeFiles/project.dir/src/project/lcd/lcd.c.obj: ../src/project/lcd/font.h
 CMakeFiles/project.dir/src/project/lcd/lcd.c.obj: ../src/project/lcd/lcd.c
@@ -33,6 +37,7 @@ CMakeFiles/project.dir/src/project/main.c.obj: ../lib/bsp/include/syscalls.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../lib/drivers/include/clint.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../lib/drivers/include/fpioa.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../lib/drivers/include/sysctl.h
+CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/lcd/desplay.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/lcd/lcd.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/bcf.h
 CMakeFiles/project.dir/src/project/main.c.obj: ../src/project/main.c

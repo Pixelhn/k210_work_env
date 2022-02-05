@@ -163,6 +163,33 @@ src/project/bcf.c.s:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bcf.c.s
 .PHONY : src/project/bcf.c.s
 
+src/project/lcd/desplay.obj: src/project/lcd/desplay.c.obj
+
+.PHONY : src/project/lcd/desplay.obj
+
+# target to build an object file
+src/project/lcd/desplay.c.obj:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd/desplay.c.obj
+.PHONY : src/project/lcd/desplay.c.obj
+
+src/project/lcd/desplay.i: src/project/lcd/desplay.c.i
+
+.PHONY : src/project/lcd/desplay.i
+
+# target to preprocess a source file
+src/project/lcd/desplay.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd/desplay.c.i
+.PHONY : src/project/lcd/desplay.c.i
+
+src/project/lcd/desplay.s: src/project/lcd/desplay.c.s
+
+.PHONY : src/project/lcd/desplay.s
+
+# target to generate assembly for a file
+src/project/lcd/desplay.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd/desplay.c.s
+.PHONY : src/project/lcd/desplay.c.s
+
 src/project/lcd/lcd.obj: src/project/lcd/lcd.c.obj
 
 .PHONY : src/project/lcd/lcd.obj
@@ -257,6 +284,9 @@ help:
 	@echo "... src/project/bcf.obj"
 	@echo "... src/project/bcf.i"
 	@echo "... src/project/bcf.s"
+	@echo "... src/project/lcd/desplay.obj"
+	@echo "... src/project/lcd/desplay.i"
+	@echo "... src/project/lcd/desplay.s"
 	@echo "... src/project/lcd/lcd.obj"
 	@echo "... src/project/lcd/lcd.i"
 	@echo "... src/project/lcd/lcd.s"
