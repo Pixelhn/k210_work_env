@@ -3,8 +3,8 @@
 #include "sysctl.h"
 #include "sleep.h"
 
+#include "dev.h"
 #include "lcd.h"
-#include "bcf.h"
 #include "desplay.h"
 uint32_t g_lcd_gram[LCD_X_MAX * LCD_Y_MAX / 2] __attribute__((aligned(128)));
 
@@ -23,11 +23,13 @@ int main(void)
     //lcd_draw_rectangle(50, 50, 100, 100, 10, YELLOW);
     int y = 0;
     des_rainbow_flag();
-    lcd_fill(1,1,1,1,BLACK);
     lcd_draw_char2(30, 30, 'P', BLUE, 4);
     lcd_draw_string2(25, 50, "Pixelhn", BLACK, 9);
     des_rainbow_flag();
+
     while (1){
+        fill_point();
+        des_rainbow_flag();
         scanf("%s", chars);
         lcd_draw_string(0, y, chars, WHITE);
         chars[0] = '\0';

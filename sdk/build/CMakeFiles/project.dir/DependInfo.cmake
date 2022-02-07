@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/rock/k210/standalone/sdk/src/project/bcf.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/bcf.c.obj"
+  "/home/rock/k210/standalone/sdk/src/project/dev.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/dev.c.obj"
   "/home/rock/k210/standalone/sdk/src/project/lcd/desplay.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/lcd/desplay.c.obj"
   "/home/rock/k210/standalone/sdk/src/project/lcd/lcd.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/lcd/lcd.c.obj"
   "/home/rock/k210/standalone/sdk/src/project/lcd/nt35310.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj"

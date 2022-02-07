@@ -4,7 +4,7 @@
 #include "lcd.h"
 #include "nt35310.h"
 #include "font.h"
-#include "bcf.h"
+#include "dev.h"
 
 static lcd_ctl_t lcd_ctl;
 unsigned short ccolor = 0;

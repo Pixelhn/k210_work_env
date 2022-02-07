@@ -3,7 +3,7 @@
 #include "unistd.h"
 
 #include "nt35310.h"
-#include "bcf.h"
+#include "dev.h"
 
 static void  init_dcx(void)
 {

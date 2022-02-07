@@ -6,12 +6,12 @@ build_path=$work_path/sdk/build
 bin_file=$work_path/out.bin
 k210tty=/dev/ttyUSB0
 
-if [ ! -f $main_path/bcf.h ]; then
-    cp $project_path/bcf.h $main_path
+if [ ! -f $main_path/dev.h ]; then
+    cp $project_path/dev.h $main_path
 fi
 
-if [ ! -f $main_path/bcf.c ]; then
-    cp $project_path/bcf.c $main_path
+if [ ! -f $main_path/dev.c ]; then
+    cp $project_path/dev.c $main_path
 fi
 
 cd $work_path/sdk/build

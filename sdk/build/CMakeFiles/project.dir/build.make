@@ -57,18 +57,18 @@ include CMakeFiles/project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/project.dir/flags.make
 
-CMakeFiles/project.dir/src/project/bcf.c.obj: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/src/project/bcf.c.obj: ../src/project/bcf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/project.dir/src/project/bcf.c.obj"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/src/project/bcf.c.obj   -c /home/rock/k210/standalone/sdk/src/project/bcf.c
+CMakeFiles/project.dir/src/project/dev.c.obj: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/src/project/dev.c.obj: ../src/project/dev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rock/k210/standalone/sdk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/project.dir/src/project/dev.c.obj"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/project.dir/src/project/dev.c.obj   -c /home/rock/k210/standalone/sdk/src/project/dev.c
 
-CMakeFiles/project.dir/src/project/bcf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/src/project/bcf.c.i"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rock/k210/standalone/sdk/src/project/bcf.c > CMakeFiles/project.dir/src/project/bcf.c.i
+CMakeFiles/project.dir/src/project/dev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/project.dir/src/project/dev.c.i"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rock/k210/standalone/sdk/src/project/dev.c > CMakeFiles/project.dir/src/project/dev.c.i
 
-CMakeFiles/project.dir/src/project/bcf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/project/bcf.c.s"
-	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/src/project/bcf.c -o CMakeFiles/project.dir/src/project/bcf.c.s
+CMakeFiles/project.dir/src/project/dev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/project.dir/src/project/dev.c.s"
+	/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rock/k210/standalone/sdk/src/project/dev.c -o CMakeFiles/project.dir/src/project/dev.c.s
 
 CMakeFiles/project.dir/src/project/lcd/desplay.c.obj: CMakeFiles/project.dir/flags.make
 CMakeFiles/project.dir/src/project/lcd/desplay.c.obj: ../src/project/lcd/desplay.c
@@ -124,7 +124,7 @@ CMakeFiles/project.dir/src/project/main.c.s: cmake_force
 
 # Object files for target project
 project_OBJECTS = \
-"CMakeFiles/project.dir/src/project/bcf.c.obj" \
+"CMakeFiles/project.dir/src/project/dev.c.obj" \
 "CMakeFiles/project.dir/src/project/lcd/desplay.c.obj" \
 "CMakeFiles/project.dir/src/project/lcd/lcd.c.obj" \
 "CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj" \
@@ -133,7 +133,7 @@ project_OBJECTS = \
 # External object files for target project
 project_EXTERNAL_OBJECTS =
 
-project: CMakeFiles/project.dir/src/project/bcf.c.obj
+project: CMakeFiles/project.dir/src/project/dev.c.obj
 project: CMakeFiles/project.dir/src/project/lcd/desplay.c.obj
 project: CMakeFiles/project.dir/src/project/lcd/lcd.c.obj
 project: CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj

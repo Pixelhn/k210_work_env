@@ -136,32 +136,32 @@ kendryte/fast:
 	$(MAKE) -f lib/CMakeFiles/kendryte.dir/build.make lib/CMakeFiles/kendryte.dir/build
 .PHONY : kendryte/fast
 
-src/project/bcf.obj: src/project/bcf.c.obj
+src/project/dev.obj: src/project/dev.c.obj
 
-.PHONY : src/project/bcf.obj
+.PHONY : src/project/dev.obj
 
 # target to build an object file
-src/project/bcf.c.obj:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bcf.c.obj
-.PHONY : src/project/bcf.c.obj
+src/project/dev.c.obj:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/dev.c.obj
+.PHONY : src/project/dev.c.obj
 
-src/project/bcf.i: src/project/bcf.c.i
+src/project/dev.i: src/project/dev.c.i
 
-.PHONY : src/project/bcf.i
+.PHONY : src/project/dev.i
 
 # target to preprocess a source file
-src/project/bcf.c.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bcf.c.i
-.PHONY : src/project/bcf.c.i
+src/project/dev.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/dev.c.i
+.PHONY : src/project/dev.c.i
 
-src/project/bcf.s: src/project/bcf.c.s
+src/project/dev.s: src/project/dev.c.s
 
-.PHONY : src/project/bcf.s
+.PHONY : src/project/dev.s
 
 # target to generate assembly for a file
-src/project/bcf.c.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/bcf.c.s
-.PHONY : src/project/bcf.c.s
+src/project/dev.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/dev.c.s
+.PHONY : src/project/dev.c.s
 
 src/project/lcd/desplay.obj: src/project/lcd/desplay.c.obj
 
@@ -281,9 +281,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... project"
 	@echo "... kendryte"
-	@echo "... src/project/bcf.obj"
-	@echo "... src/project/bcf.i"
-	@echo "... src/project/bcf.s"
+	@echo "... src/project/dev.obj"
+	@echo "... src/project/dev.i"
+	@echo "... src/project/dev.s"
 	@echo "... src/project/lcd/desplay.obj"
 	@echo "... src/project/lcd/desplay.i"
 	@echo "... src/project/lcd/desplay.s"
