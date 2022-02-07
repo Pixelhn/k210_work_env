@@ -15,8 +15,12 @@ int main(void)
     printf("%ld\n", sizeof(short));
     system_lcd_init();
 
-
+    uint16_t i = 0;
     char chars[64];
+    //for(; i <= 65534;i++){
+        //lcd_clear(i);
+        //printf("%d\n", i);
+        //msleep(10);}
     lcd_clear(RED);
     lcd_draw_picture(0, 0, 240, 240, g_lcd_gram);
     lcd_draw_string(25, 50, "Kendryte K210", BLUE);
@@ -28,8 +32,8 @@ int main(void)
     des_rainbow_flag();
 
     while (1){
-        fill_point();
-        des_rainbow_flag();
+        lcd_clear(WHITE);
+        des_picture();
         scanf("%s", chars);
         lcd_draw_string(0, y, chars, WHITE);
         chars[0] = '\0';
