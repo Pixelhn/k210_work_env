@@ -53,5 +53,5 @@ SPI协议
 **烧写上传工具**：[Kflash](https://github.com/kendryte/kflash.py)
 
 ## Tasks
-    流程、架构、功能的安排、设计、实现
-    详见[Working_Tasks.md]()
+流程、架构、功能的安排、设计、实现
+详见[Working_Tasks.md](https://github.com/Pixelhn/k210_work_env/blob/main/Working_Tasks.md)
