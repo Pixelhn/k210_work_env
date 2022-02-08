@@ -51,3 +51,7 @@ SPI协议
 **SDK**：官方[standalone-V0.5.6](https://github.com/kendryte/kendryte-standalone-sdk/releases/tag/V0.5.6)
 
 **烧写上传工具**：[Kflash](https://github.com/kendryte/kflash.py)
+
+## Tasks
+    流程、架构、功能的安排、设计、实现
+    详见[Working_Tasks.md]()

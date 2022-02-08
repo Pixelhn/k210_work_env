@@ -239,3 +239,8 @@ void lcd_draw_picture(uint16_t x1, uint16_t y1, uint16_t width, uint16_t height,
     tft_write_word(ptr, width * height / 2, lcd_ctl.mode ? 2 : 0);
 }
 
+void lcd_frame(uint32_t *ptr)
+{
+    lcd_set_area(0, 0, 320 - 1, 240 - 1);
+    tft_write_word(ptr, 320 * 240 / 2, lcd_ctl.mode ? 2 : 0);
+}

@@ -6,24 +6,39 @@
 #include"lcd.h"
 
 
-uint16_t frame[240][320];
-uint32_t csp[2*160*240];
-uint16_t line[2][160];
+uint16_t frame[y_pixel][x_pixel];
+typedef struct
+{
+    uint16_t *p_point;
+    uint16_t (*p_line)[x_pixel];
+    uint32_t *p_frame;
+}p_display;
+
+p_display c_display;
 
 uint16_t *p_point;
+uint16_t (*p_line)[x_pixel];
 uint32_t *p_frame;
 
 void des_picture()
 {
     p_frame = (uint32_t *)&frame[0][0];
-    p_point = (uint16_t *)&frame[0][0];
-    int i;
-    for (i = 0;i < 320*240;i++){
-        if(i%3 == 0)
-        *p_point = 0xFFE0;else *p_point = RED;
-    p_point++;
+    p_point = &frame[0][0];
+    p_line  = &frame[0];
+    
+    int i, j;
+    for (i = 0; i < y_pixel; i++){
+        uint16_t *up_point = (uint16_t *)p_line;
+        if(i%7 == 0){
+            for(j = 0; j < x_pixel; j++) {
+                *up_point = RED;
+                up_point++;
+            }
+        }
+        
+    p_line++;
     }
-    lcd_draw_picture(0, 0, 320, 240, p_frame);
+    lcd_frame(p_frame);
     return;
 }
 

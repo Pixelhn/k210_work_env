@@ -15,7 +15,7 @@ int main(void)
     printf("%ld\n", sizeof(short));
     system_lcd_init();
 
-    uint16_t i = 0;
+    //uint16_t i = 0;
     char chars[64];
     //for(; i <= 65534;i++){
         //lcd_clear(i);

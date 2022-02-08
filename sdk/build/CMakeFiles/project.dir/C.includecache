@@ -58,6 +58,18 @@ stdint.h
 
 /home/rock/k210/standalone/sdk/src/project/dev.h
 
+/home/rock/k210/standalone/sdk/src/project/lcd/desplay.c
+desplay.h
+/home/rock/k210/standalone/sdk/src/project/lcd/desplay.h
+lcd.h
+/home/rock/k210/standalone/sdk/src/project/lcd/lcd.h
+
+/home/rock/k210/standalone/sdk/src/project/lcd/desplay.h
+
+/home/rock/k210/standalone/sdk/src/project/lcd/lcd.h
+stdint.h
+-
+
 /home/rock/k210/standalone/sdk/src/project/main.c
 stdio.h
 -
