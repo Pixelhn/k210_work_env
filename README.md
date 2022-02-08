@@ -24,3 +24,30 @@ k210 work and study environment
 **FPIOA**：现场可编程IO阵列  
 GPIO，GPIOHS，UART，I<sup>2</sup>C，SPI，I<sup>2</sup>S，PWM
 
+### 屏幕
+320 * 240 RGB LCD屏幕
+16Bit色深
+NT35310驱动
+
+### 摄像头
+#### OV5642
+> 无法驱动
+
+#### OV5640-AF
+未测试
+
+#### OV2640
+未测试
+
+### SD卡槽  
+SPI协议
+
+##
+
+## Software
+
+**Toolchain**：官方[工具链](https://github.com/kendryte/kendryte-gnu-toolchain)
+
+**SDK**：官方[standalone-V0.5.6](https://github.com/kendryte/kendryte-standalone-sdk/releases/tag/V0.5.6)
+
+**烧写上传工具**：[Kflash](https://github.com/kendryte/kflash.py)
