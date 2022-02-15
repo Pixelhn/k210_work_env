@@ -190,6 +190,33 @@ src/project/lcd/desplay.c.s:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd/desplay.c.s
 .PHONY : src/project/lcd/desplay.c.s
 
+src/project/lcd/layers.obj: src/project/lcd/layers.c.obj
+
+.PHONY : src/project/lcd/layers.obj
+
+# target to build an object file
+src/project/lcd/layers.c.obj:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd/layers.c.obj
+.PHONY : src/project/lcd/layers.c.obj
+
+src/project/lcd/layers.i: src/project/lcd/layers.c.i
+
+.PHONY : src/project/lcd/layers.i
+
+# target to preprocess a source file
+src/project/lcd/layers.c.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd/layers.c.i
+.PHONY : src/project/lcd/layers.c.i
+
+src/project/lcd/layers.s: src/project/lcd/layers.c.s
+
+.PHONY : src/project/lcd/layers.s
+
+# target to generate assembly for a file
+src/project/lcd/layers.c.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/src/project/lcd/layers.c.s
+.PHONY : src/project/lcd/layers.c.s
+
 src/project/lcd/lcd.obj: src/project/lcd/lcd.c.obj
 
 .PHONY : src/project/lcd/lcd.obj
@@ -287,6 +314,9 @@ help:
 	@echo "... src/project/lcd/desplay.obj"
 	@echo "... src/project/lcd/desplay.i"
 	@echo "... src/project/lcd/desplay.s"
+	@echo "... src/project/lcd/layers.obj"
+	@echo "... src/project/lcd/layers.i"
+	@echo "... src/project/lcd/layers.s"
 	@echo "... src/project/lcd/lcd.obj"
 	@echo "... src/project/lcd/lcd.i"
 	@echo "... src/project/lcd/lcd.s"

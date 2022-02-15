@@ -31,7 +31,6 @@ NT35310驱动
 
 ### 摄像头
 #### OV5642
-![](https://github.com/Pixelhn/k210_work_env/blob/main/img/OV5642.jpg)
 > 无法驱动
 
 #### OV5640-AF
@@ -41,7 +40,7 @@ NT35310驱动
 未测试
 
 ### SD卡槽  
-SPI协议
+SIP协议
 
 ##
 

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/rock/k210/standalone/sdk/src/project/dev.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/dev.c.obj"
   "/home/rock/k210/standalone/sdk/src/project/lcd/desplay.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/lcd/desplay.c.obj"
+  "/home/rock/k210/standalone/sdk/src/project/lcd/layers.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/lcd/layers.c.obj"
   "/home/rock/k210/standalone/sdk/src/project/lcd/lcd.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/lcd/lcd.c.obj"
   "/home/rock/k210/standalone/sdk/src/project/lcd/nt35310.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/lcd/nt35310.c.obj"
   "/home/rock/k210/standalone/sdk/src/project/main.c" "/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir/src/project/main.c.obj"

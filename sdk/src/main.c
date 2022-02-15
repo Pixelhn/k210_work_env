@@ -6,6 +6,7 @@
 #include "dev.h"
 #include "lcd.h"
 #include "desplay.h"
+
 uint32_t g_lcd_gram[LCD_X_MAX * LCD_Y_MAX / 2] __attribute__((aligned(128)));
 
 int main(void)
@@ -32,8 +33,8 @@ int main(void)
     des_rainbow_flag();
 
     while (1){
-        lcd_clear(WHITE);
         des_picture();
+        printf("fhg\n");
         scanf("%s", chars);
         lcd_draw_string(0, y, chars, WHITE);
         chars[0] = '\0';

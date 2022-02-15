@@ -10,7 +10,11 @@ CMakeFiles/project.dir/src/project/dev.c.obj: ../src/project/dev.h
 
 CMakeFiles/project.dir/src/project/lcd/desplay.c.obj: ../src/project/lcd/desplay.c
 CMakeFiles/project.dir/src/project/lcd/desplay.c.obj: ../src/project/lcd/desplay.h
+CMakeFiles/project.dir/src/project/lcd/desplay.c.obj: ../src/project/lcd/image.h
 CMakeFiles/project.dir/src/project/lcd/desplay.c.obj: ../src/project/lcd/lcd.h
+
+CMakeFiles/project.dir/src/project/lcd/layers.c.obj: ../src/project/lcd/layers.c
+CMakeFiles/project.dir/src/project/lcd/layers.c.obj: ../src/project/lcd/layers.h
 
 CMakeFiles/project.dir/src/project/lcd/lcd.c.obj: ../src/project/dev.h
 CMakeFiles/project.dir/src/project/lcd/lcd.c.obj: ../src/project/lcd/font.h

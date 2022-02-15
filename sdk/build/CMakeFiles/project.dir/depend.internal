@@ -11,7 +11,11 @@ CMakeFiles/project.dir/src/project/dev.c.obj
 CMakeFiles/project.dir/src/project/lcd/desplay.c.obj
  /home/rock/k210/standalone/sdk/src/project/lcd/desplay.c
  /home/rock/k210/standalone/sdk/src/project/lcd/desplay.h
+ /home/rock/k210/standalone/sdk/src/project/lcd/image.h
  /home/rock/k210/standalone/sdk/src/project/lcd/lcd.h
+CMakeFiles/project.dir/src/project/lcd/layers.c.obj
+ /home/rock/k210/standalone/sdk/src/project/lcd/layers.c
+ /home/rock/k210/standalone/sdk/src/project/lcd/layers.h
 CMakeFiles/project.dir/src/project/lcd/lcd.c.obj
  ../src/project/dev.h
  /home/rock/k210/standalone/sdk/src/project/lcd/font.h
