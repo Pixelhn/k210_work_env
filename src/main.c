@@ -1,62 +1,43 @@
-#include <bsp.h>
-#include <sysctl.h>
+#include <stdio.h>
+#include "fpioa.h"
+#include "sysctl.h"
+#include "sleep.h"
 
-#include <fpioa.h>
-#include <gpio.h>
+#include "dev.h"
+#include "lcd.h"
+#include "desplay.h"
 
-
-// Hard
-#define hR 13
-#define hG 12
-#define hB 14
-
-
-//Sorf
-#define baseGPIO(s) (s +  FUNC_GPIO0)
-#define sR (1)
-#define sG (2)
-#define sB (3)
-
-int core1_function(void *ctx)
-{
-    uint64_t core = current_coreid();
-    printf("Core %ld Hello world\n", core);
-    while(1);
-}
+uint32_t g_lcd_gram[LCD_X_MAX * LCD_Y_MAX / 2] __attribute__((aligned(128)));
 
 int main(void)
 {
-    sysctl_pll_set_freq(SYSCTL_PLL0, 800000000);
-    uint64_t core = current_coreid();
-    int data;
-    printf("Core %ld Hello world\n", core);
-    register_core1(core1_function, NULL);
+    sleep(1);
+    printf("lcd test\n");
+    printf("%ld\n", sizeof(short));
+    system_lcd_init();
 
-    /* Clear stdin buffer before scanf */
-    sys_stdin_flush();
+    //uint16_t i = 0;
+    char chars[64];
+    //for(; i <= 65534;i++){
+        //lcd_clear(i);
+        //printf("%d\n", i);
+        //msleep(10);}
+    lcd_clear(RED);
+    lcd_draw_picture(0, 0, 240, 240, g_lcd_gram);
+    lcd_draw_string(25, 50, "Kendryte K210", BLUE);
+    //lcd_draw_rectangle(50, 50, 100, 100, 10, YELLOW);
+    int y = 0;
+    des_rainbow_flag();
+    lcd_draw_char2(30, 30, 'P', BLUE, 4);
+    lcd_draw_string2(25, 50, "Pixelhn", BLACK, 9);
+    des_rainbow_flag();
 
-    scanf("%d", &data);
-    printf("\nData is %d\n", data);
-
-    fpioa_set_function(hR, baseGPIO(sR));
-    fpioa_set_function(hG, baseGPIO(sG));
-    fpioa_set_function(hB, baseGPIO(sB));
-
-    gpio_init();
-
-    gpio_set_drive_mode(sR, GPIO_DM_OUTPUT);
-    gpio_set_drive_mode(sG, GPIO_DM_OUTPUT);
-    gpio_set_drive_mode(sB, GPIO_DM_OUTPUT);
-    while(1)
+    while (1)
     {
-        gpio_set_pin(sR, GPIO_PV_HIGH);
-        gpio_set_pin(sG, GPIO_PV_HIGH);
-        gpio_set_pin(sB, GPIO_PV_HIGH);
-        sleep(1);
-        gpio_set_pin(sR, GPIO_PV_LOW);
-        gpio_set_pin(sG, GPIO_PV_LOW);
-        gpio_set_pin(sB, GPIO_PV_LOW);
-        sleep(1);        
+        printf("lhn@k210#\n");
+        scanf("%s", chars);
+        lcd_draw_string(0, y, chars, WHITE);
+        chars[0] = '\0';
+        y += 16;
     }
-    return 0;
 }
