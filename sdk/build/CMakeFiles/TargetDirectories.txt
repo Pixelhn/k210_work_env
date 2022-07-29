@@ -1,6 +1,0 @@
-/home/rock/k210/standalone/sdk/build/CMakeFiles/rebuild_cache.dir
-/home/rock/k210/standalone/sdk/build/CMakeFiles/edit_cache.dir
-/home/rock/k210/standalone/sdk/build/CMakeFiles/project.dir
-/home/rock/k210/standalone/sdk/build/lib/CMakeFiles/rebuild_cache.dir
-/home/rock/k210/standalone/sdk/build/lib/CMakeFiles/edit_cache.dir
-/home/rock/k210/standalone/sdk/build/lib/CMakeFiles/kendryte.dir
