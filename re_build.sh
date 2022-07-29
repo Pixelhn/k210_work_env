@@ -1,22 +1,25 @@
 #!/bin/bash
-work_path=$(pwd)
-main_path=$work_path/sdk/src/project
-build_path=$work_path/sdk/build
-bin_file=$work_path/out.bin
-k210tty=/dev/ttyUSB0
 
-if [ ! -f $main_path/dev.h ]; then
-    cp $project_path/dev.h $main_path
-fi
+K210_port=/dev/ttyUSB0
+WD=$(pwd)
 
-if [ ! -f $main_path/dev.c ]; then
-    cp $project_path/dev.c $main_path
-fi
-rm $work_path/end.bin
+MAIN_PATH=$WD/src/
+SDK_PATH=$WD/sdk/src/
 
-    echo _________________BUILD_ALL!__________________
-    cd $work_path/sdk/build
-    rm -rf *
-    cmake .. -DPROJ=project -DTOOLCHAIN=/mnt/sdcard/K210/kendryte-toolchain/bin || exit
-    make -j4 || exit
-    echo _________________ALL_RIGHT!__________________
+BUILD_PATH=$WD/sdk/build
+END_BIN=$WD/end.bin
+
+
+bash ./clean.sh
+
+cp -r $MAIN_PATH/* $SDK_PATH
+
+cd $BUILD_PATH
+
+cmake .. -DPROJ=project -DTOOLCHAIN=/mnt/sdcard/K210/kendryte-toolchain/bin || exit
+make -j4 || exit
+
+mv $BUILD_PATH/project.bin $END_BIN
+rm project*
+
+ls -al $END_BIN
